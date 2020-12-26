@@ -1,4 +1,21 @@
 export const ME = "Chan, Y.-C.";
+
+const GREAT_KNOT = "Great Knot";
+const RED_KNOT = "Red Knot";
+const BAR_TAILED_GODWIT = "Bar-tailed Godwit";
+const YELLOW_SEA = "Yellow Sea";
+const WADDEN_SEA = "Wadden Sea";
+const SURVIVAL_ANALYSIS = "Survival Analysis";
+const SATELLITE_TRACKING = "Satellite Tracking";
+const INTERDISCIPLINARY = "Interdisciplinary";
+
+export const CATEGORIES = {
+  SPECIES: [GREAT_KNOT, RED_KNOT, BAR_TAILED_GODWIT],
+  PLACE: [YELLOW_SEA, WADDEN_SEA],
+  METHOD: [SURVIVAL_ANALYSIS, SATELLITE_TRACKING, INTERDISCIPLINARY],
+};
+
+
 const PUBLICATIONS = [
   {
     authors: [
@@ -21,11 +38,11 @@ const PUBLICATIONS = [
     url: "https://www.mdpi.com/2073-4441/12/8/2134/pdf",
     doi: "10.3390/w12082134",
     categories: [
-      "Interdisciplinary",
-      "Great Knot",
-      "Bar-tailed Godwit",
-      "Yellow Sea",
-      "Satellite tracking",
+      INTERDISCIPLINARY,
+      GREAT_KNOT,
+      BAR_TAILED_GODWIT,
+      YELLOW_SEA,
+      SATELLITE_TRACKING,
     ],
   },
   {
@@ -49,11 +66,11 @@ const PUBLICATIONS = [
       "https://www.sciencedirect.com/science/article/pii/S1674237020300211/pdfft?md5=add130fcedaf5a9cdb18bb45844dee85&pid=1-s2.0-S1674237020300211-main.pdf",
     doi: "10.1016/j.wse.2020.04.001",
     categories: [
-      "Interdisciplinary",
-      "Great Knot",
-      "Bar-tailed Godwit",
-      "Yellow Sea",
-      "Satellite tracking",
+      INTERDISCIPLINARY,
+      GREAT_KNOT,
+      BAR_TAILED_GODWIT,
+      YELLOW_SEA,
+      SATELLITE_TRACKING,
     ],
   },
   {
@@ -75,7 +92,7 @@ const PUBLICATIONS = [
     url:
       "https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/1365-2664.13474",
     doi: "10.1111/1365-2664.13474",
-    categories: ["Great Knot", "Yellow Sea", "Satellite tracking"],
+    categories: [GREAT_KNOT, YELLOW_SEA, SATELLITE_TRACKING],
   },
   {
     authors: [
@@ -96,10 +113,10 @@ const PUBLICATIONS = [
       "https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/1365-2664.13474",
     doi: "10.1111/1365-2664.13474",
     categories: [
-      "Great Knot",
-      "Bar-tailed Godwit",
-      "Yellow Sea",
-      "Satellite tracking",
+      GREAT_KNOT,
+      BAR_TAILED_GODWIT,
+      YELLOW_SEA,
+      SATELLITE_TRACKING,
     ],
   },
   {
@@ -123,17 +140,19 @@ const PUBLICATIONS = [
     journalIssue: "9(7): 3868-3878",
     url: "https://onlinelibrary.wiley.com/doi/epdf/10.1002/ece3.5013",
     doi: "10.1002/ece3.5013",
-    categories: ["Great Knot", "Yellow Sea"],
+    categories: [GREAT_KNOT, YELLOW_SEA],
   },
   {
- authors: [ME],
- year: 2018,
- title: "Safeguarding the future of migratory shorebirds along the Chinese coast – what else matters?",
- journal: "Wader Study",
- journalIssue: "126(1), 75-76",
- doi: "10.18194/ws.00142",
- url: "https://www.waderstudygroup.org/wp-content/uploads/2019/04/1261-Wading-through-Literature.pdf",
- categories: ["Great Knot", "Bar-tailed Godwit","Yellow Sea"]
+    authors: [ME],
+    year: 2018,
+    title:
+      "Safeguarding the future of migratory shorebirds along the Chinese coast – what else matters?",
+    journal: "Wader Study",
+    journalIssue: "126(1), 75-76",
+    doi: "10.18194/ws.00142",
+    url:
+      "https://www.waderstudygroup.org/wp-content/uploads/2019/04/1261-Wading-through-Literature.pdf",
+    categories: [GREAT_KNOT, BAR_TAILED_GODWIT, YELLOW_SEA],
   },
 
   {
@@ -155,11 +174,11 @@ const PUBLICATIONS = [
     title:
       "Persistent use of a shorebird staging site in the Yellow Sea despite severe declines in food resources implies a lack of alternatives",
     journal: "Bird Conservation International",
-    journalIssue: "28(4): 534-548 ",
+    journalIssue: "28(4): 534-548",
     url:
       "https://www.rug.nl/research/portal/files/62879746/Bird_Conservation_International_2018_Persistent_use_of_a_shorebird_staging_site.pdf",
     doi: "10.1017/S0959270917000430",
-    categories: ["Great Knot", "Bar-tailed Godwit", "Yellow Sea"],
+    categories: [GREAT_KNOT, BAR_TAILED_GODWIT, YELLOW_SEA],
   },
   {
     authors: [
@@ -182,71 +201,88 @@ const PUBLICATIONS = [
       "https://www.waderstudygroup.org/wp-content/uploads/2017/08/1242-Forum.pdf.pdf",
     doi: "10.18194/ws.00077",
     categories: [
-      "Great Knot",
-      "Bar-tailed Godwit",
-      "Yellow Sea",
-      "Satellite Tracking",
+      GREAT_KNOT,
+      BAR_TAILED_GODWIT,
+      YELLOW_SEA,
+      SATELLITE_TRACKING,
     ],
   },
-     {
- authors:[
-   ME, "Brugge, M.",
-   "Tibbitts, T. L.",
-   "Dekinga, A.",
-   "Porter, R.",
-   "Klaassen, R.",
-   "Piersma, T."],
-     year: 2016,
-    title:  "Testing an attachment method for solar-powered tracking devices on a long-distance migrating shorebird",
+  {
+    authors: [
+      ME,
+      "Brugge, M.",
+      "Tibbitts, T. L.",
+      "Dekinga, A.",
+      "Porter, R.",
+      "Klaassen, R.",
+      "Piersma, T.",
+    ],
+    year: 2016,
+    title:
+      "Testing an attachment method for solar-powered tracking devices on a long-distance migrating shorebird",
     journal: "Journal of Ornithology",
     journalIssue: "157 (1), 277-287",
-     doi: "10.1007/s10336-015-1276-4",
-     url: "https://www.researchgate.net/profile/Ying_Chi_Chan/publication/281450471_Testing_an_attachment_method_for_solar-powered_tracking_devices_on_a_long-distance_migrating_shorebird/links/55e844c008ae21d099c16ea8.pdf",
-     categories: ["Red Knot","Wadden Sea"]
-   },
-  {
-     authors:[
-  "Bijleveld, A. I.", 
-      "MacCurdy, R. B.",
-       ME, 
-       "Penning, E.", 
-       "Gabrielson, R. M.",
-       "Cluderay, J.", 
-       "Spaulding, E. L.", 
-       "Dekinga A.", 
-       "Holthuijsen, S.", 
-       "ten Horn, J.", 
-       "Brugge, M.", 
-       "van Gils, J. A.", 
-       "Winkler, D. W.",
-       "Piersma, T." ],
-         year: 2016,
-       title: "Understanding spatial distributions: negative density-dependence in prey causes predators to trade-off prey quantity with quality",
-    journal: "Proceedings of the Royal Society B: Biological Sciences",
-   journalIssue:"283(1828), 20151557",
-    doi: "10.1098/rspb.2015.1557",
-    url: "https://royalsocietypublishing.org/doi/pdf/10.1098/rspb.2015.1557"
+    doi: "10.1007/s10336-015-1276-4",
+    url:
+      "https://www.researchgate.net/profile/Ying_Chi_Chan/publication/281450471_Testing_an_attachment_method_for_solar-powered_tracking_devices_on_a_long-distance_migrating_shorebird/links/55e844c008ae21d099c16ea8.pdf",
+    categories: [RED_KNOT, WADDEN_SEA, SATELLITE_TRACKING],
   },
-   {
+  {
     authors: [
-  "Piersma, T.",
-"Lok, T.",
-   "Chen, Y.",
-    "Hassell, C. J.",
-      "Yang, H.", 
+      "Bijleveld, A. I.",
+      "MacCurdy, R. B.",
+      ME,
+      "Penning, E.",
+      "Gabrielson, R. M.",
+      "Cluderay, J.",
+      "Spaulding, E. L.",
+      "Dekinga A.",
+      "Holthuijsen, S.",
+      "ten Horn, J.",
+      "Brugge, M.",
+      "van Gils, J. A.",
+      "Winkler, D. W.",
+      "Piersma, T.",
+    ],
+    year: 2016,
+    title:
+      "Understanding spatial distributions: negative density-dependence in prey causes predators to trade-off prey quantity with quality",
+    journal: "Proceedings of the Royal Society B: Biological Sciences",
+    journalIssue: "283(1828), 20151557",
+    doi: "10.1098/rspb.2015.1557",
+    url: "https://royalsocietypublishing.org/doi/pdf/10.1098/rspb.2015.1557",
+    categories: [RED_KNOT, WADDEN_SEA],
+  },
+  {
+    authors: [
+      "Piersma, T.",
+      "Lok, T.",
+      "Chen, Y.",
+      "Hassell, C. J.",
+      "Yang, H.",
       "Boyle, A.",
-      "Slaymaker, M.", 
-      ME, 
-      "Melville, D.S.", 
+      "Slaymaker, M.",
+      ME,
+      "Melville, D.S.",
       "Zhang, Z.",
-      "Ma, Z."],
-     year:2016,
-     title: "Simultaneous declines in summer survival of three shorebird species signals a flyway at risk",
-     journal:"Journal of Applied Ecology", 
-     journalIssue:"53 (2), 479-490",
-     doi: "10.1111/1365-2664.12582",
-     url:"https://besjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/1365-2664.12582",
-   },
+      "Ma, Z.",
+    ],
+    year: 2016,
+    title:
+      "Simultaneous declines in summer survival of three shorebird species signals a flyway at risk",
+    journal: "Journal of Applied Ecology",
+    journalIssue: "53 (2), 479-490",
+    doi: "10.1111/1365-2664.12582",
+    url:
+      "https://besjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/1365-2664.12582",
+    categories: [
+      GREAT_KNOT,
+      BAR_TAILED_GODWIT,
+      RED_KNOT,
+      YELLOW_SEA,
+      SURVIVAL_ANALYSIS,
+    ],
+  },
   {
     authors: [
       "Melville, D. S.",
@@ -272,8 +308,10 @@ const PUBLICATIONS = [
     url:
       "https://www.researchgate.net/profile/Qingquan_Bai/publication/313601146_Gaizhou_Liaodong_bay_Liaoning_province_China_-_A_site_of_international_importance_for_great_knot_calidris_tenuirostris_and_other_shorebirds/links/58f75f57a6fdccd3e0890488/Gaizhou-Liaodong-bay-Liaoning-province-China-A-site-of-international-importance-for-great-knot-calidris-tenuirostris-and-other-shorebirds.pdf",
     doi: "",
-    categories: ["Great Knot", "Yellow Sea"],
+    categories: [GREAT_KNOT, YELLOW_SEA],
   },
 ];
+
+
 
 export default PUBLICATIONS;

@@ -2,14 +2,14 @@ import ProfilePic from "./profile_pic.jpg";
 import { MDBIcon } from "mdbreact";
 import "./Home.css";
 
-import LINKS, { EMAIL } from "../links";
+import LINKS, { EMAIL, NAME } from "../links";
 
 export default function Home() {
   return (
     <>
       <div className="App-section-left">
         <img src={ProfilePic} className="personal-image" alt="personal" />
-        <p>Ying-Chi (Ginny) Chan</p>
+        <p>{NAME}</p>
 
         <a
           className="App-link"

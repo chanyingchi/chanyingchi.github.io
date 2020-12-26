@@ -17,3 +17,41 @@
 .publication-url:hover {
   background-color: #5db2ff;
 }
+
+.publication-title {
+  font-size: 1.2rem;
+}
+
+.publication-journal {
+  color: #757575;
+}
+.publication-journal-issue {
+  color: #757575;
+}
+.publication-doi {
+  color: #757575;
+}
+
+.filter-button {
+  border-radius: 24px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.filter-grey .filter-button {
+  background-color: #757575 !important;
+}
+
+.filter-red .filter-button {
+  background-color: #ef5350 !important;
+}
+
+.filter-orange .filter-button {
+  background-color: #fb8c00 !important;
+}
+
+.filter-blue .filter-button {
+  background-color: #0288d1 !important;
+}

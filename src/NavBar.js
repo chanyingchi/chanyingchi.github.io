@@ -10,6 +10,8 @@ import {
   MDBCollapse,
 } from "mdbreact";
 
+import { NAME } from "./links";
+
 const ITEMS = {
   home: "Home",
   news: "News",
@@ -27,7 +29,7 @@ export default function NavBar() {
   return (
     <MDBNavbar color="indigo" dark expand="md">
       <MDBNavbarBrand>
-        <strong className="white-text">Ying Chi Chan</strong>
+        <strong className="white-text">{NAME}</strong>
       </MDBNavbarBrand>
       <MDBNavbarToggler onClick={toggleCollapse} />
       <MDBCollapse id="navbarCollapse3" isOpen={isOpen} navbar>

@@ -5,6 +5,7 @@ const LINKS = {
   "Orcid": "https://orcid.org/0000-0002-7183-4411"
 };
 
+export const NAME = "Ying-Chi (Ginny) Chan";
 export const EMAIL = "y.c.chan@rug.nl";
 
 export default LINKS;
