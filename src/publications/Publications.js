@@ -72,7 +72,7 @@ export default function Publications() {
           ({ categories, year }) =>
             !filter || year === filter || categories.includes(filter)
         ).map((publication) => (
-          <p className="App-paragraph" key={publication.title}>
+          <p className="publication" key={publication.title}>
             <Title Name={publication.title} />
             <br />
             {publication.authors.map((author, index) => (

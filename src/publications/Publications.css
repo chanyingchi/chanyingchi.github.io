@@ -1,3 +1,9 @@
+.publication {
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: left;
+}
+
 .publication-url {
   color: #5db2ff;
   border-color: #5db2ff;
@@ -22,13 +28,7 @@
   font-size: 1.2rem;
 }
 
-.publication-journal {
-  color: #757575;
-}
-.publication-journal-issue {
-  color: #757575;
-}
-.publication-doi {
+.publication-journal, .publication-journal-issue, .publication-doi {
   color: #757575;
 }
 

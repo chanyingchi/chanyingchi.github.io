@@ -11,5 +11,10 @@
 }
 
 ul {
+  padding-inline-start: 20px;
+}
+
+ul.education {
   list-style-type: none;
+  padding-inline-start: 2px;
 }
