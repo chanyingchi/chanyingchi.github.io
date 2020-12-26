@@ -33,20 +33,34 @@ export default function Home() {
         ))}
       </div>
       <div className="App-section-right">
-        <p className="App-paragraph">Introduction</p>
+        <p className="App-paragraph">I am an ecologist with a strong interest in animal movement and migration. 
+My research aims at understanding the decision-making process in animal movement 
+and the causes and consequences of variation in movement and migratory behaviour. 
+I am specialised in analysing tracking data in combination with ground observations and environmental covariates. 
+I have led and organised field expeditions in Australia and China in satellite tagging of birds, 
+foraging behavioural observations, bird counting, resighting of colour-banded birds and prey sampling.</p>
         <div className="paragraph-section">
           <div className="App-paragraph">
             <h3>Interests</h3>
-            TODO
+            Animal movement
+            Animal migration
+            Conservation biology
+            Biologging
+            Foraging ecology
+            Data visualisation
+
           </div>
           <div className="App-paragraph">
             <h3>Education</h3>
             <ul>
               <li>
-                <MDBIcon icon="graduation-cap" /> TODO
+                <MDBIcon icon="graduation-cap" /> PhD candidate, University of Groningen
               </li>
               <li>
-                <MDBIcon icon="graduation-cap" /> TODO2
+                <MDBIcon icon="graduation-cap" /> MSc Ecology and Evolution (cum laude), University of Groningen
+              </li>
+            <li>
+                <MDBIcon icon="graduation-cap" /> BSc Environmental Life Science (First Class Honours), University of Hong Kong
               </li>
             </ul>
           </div>
