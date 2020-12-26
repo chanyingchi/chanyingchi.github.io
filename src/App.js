@@ -1,6 +1,8 @@
 import "./App.css";
 import NavBar from "./NavBar";
 import Home from "./home/Home";
+import Publications from "./publications/Publications";
+import Footer from "./Footer";
 
 export default function App() {
   return (
@@ -16,8 +18,8 @@ export default function App() {
         </div>
 
         <div id="publications" className="App-section">
-          <div className="App-section-left">publications</div>
-          <div className="App-section-right">publications TODO</div>
+          <div className="App-section-left"><h1>Publications</h1></div>
+          <div className="App-section-right"><Publications /></div>
         </div>
 
         <div id="multimedia" className="App-section">
@@ -30,6 +32,8 @@ export default function App() {
           <div className="App-section-right">contact TODO</div>
         </div>
       </div>
+
+      <Footer />
     </>
   );
 }
