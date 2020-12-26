@@ -18,8 +18,7 @@ export default function App() {
         </div>
 
         <div id="publications" className="App-section">
-          <div className="App-section-left"><h1>Publications</h1></div>
-          <div className="App-section-right"><Publications /></div>
+          <Publications />
         </div>
 
         <div id="multimedia" className="App-section">

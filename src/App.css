@@ -25,6 +25,7 @@
 }
 
 .App-section-right {
+  text-align: left;
   display: flex;
   flex-direction: column;
   flex: 0 0 66.66666666%;

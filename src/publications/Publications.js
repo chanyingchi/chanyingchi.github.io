@@ -1,3 +1,6 @@
+import React, { useState } from "react";
+import { MDBBtnGroup, MDBBtn } from "mdbreact";
+
 import PUBLICATIONS, { ME } from "./data";
 
 const Author = ({ name }) =>
@@ -10,34 +13,97 @@ const Author = ({ name }) =>
 const Title = ({ Name }) =>
   typeof Name === "string" ? (
     <span className="publication-title">{Name}</span>
-  ) : Name;
+  ) : (
+    Name
+  );
+
+const YEARS = Array.from(new Set(PUBLICATIONS.map(({ year }) => year))).sort();
+const CATEGORIES = Array.from(
+  new Set(
+    PUBLICATIONS.reduce((aggr, { categories }) => [...categories, ...aggr], [])
+  )
+);
+
+const Filters = ({ selected, onSelect }) => {
+  return (
+    <div className="btn-toolbar" role="toolbar" aria-label="Filters">
+      <MDBBtnGroup className="mr-1">
+        <MDBBtn disabled={!selected} onClick={() => onSelect()}>
+          Clear
+        </MDBBtn>
+      </MDBBtnGroup>
+      <MDBBtnGroup className="mr-2">
+        {YEARS.map((year) => (
+          <MDBBtn
+            key={year}
+            disabled={selected === year}
+            onClick={() => onSelect(year)}
+          >
+            {year}
+          </MDBBtn>
+        ))}
+      </MDBBtnGroup>
+      <MDBBtnGroup className="mr-2">
+        {CATEGORIES.map((category) => (
+          <MDBBtn
+            key={category}
+            disabled={selected === category}
+            onClick={() => onSelect(category)}
+          >
+            {category}
+          </MDBBtn>
+        ))}
+      </MDBBtnGroup>
+    </div>
+  );
+};
 
 export default function Publications() {
-  return PUBLICATIONS.map((publication) => {
-    const format = publication.url.split(".").reverse()[0];
-    return (
-      <p key={publication.title}>
-        {publication.authors.map((author, index) => (
-          <>
-            <Author key={author} name={author} />
-            {index < publication.authors.length - 1 ? (
-              <span key={`${author}_separator`}>, </span>
-            ) : (
-              <span key={`${author}_separator`}> </span>
-            )}
-          </>
-        ))}
-        <span className="publication-year">{`(${publication.year}). `}</span>
-        <Title Name={publication.title} />
-        <span className="publication-title-separator">. </span>
-        <span className="publication-journal">{`${publication.journal} `}</span>
-        <span className="publication-journal-issue">{`${publication.journalIssue}. `}</span>
-        <span className="publication-doi">doi: </span>
-        <a href={`https://doi.org/${publication.doi}`}>{publication.doi}</a>
-        <span className="publication-url"> [</span>
-        <a href={publication.url}>{format.toUpperCase()}</a>
-        <span className="publication-url">]</span>
-      </p>
-    );
-  });
+  const [filter, setFilter] = useState();
+  return (
+    <>
+      <div className="App-section-left">
+        <h1>Publications</h1>
+        <Filters selected={filter} onSelect={setFilter} />
+      </div>
+      <div className="App-section-right">
+        {PUBLICATIONS.filter(
+          ({ categories, year }) =>
+            !filter || year === filter || categories.includes(filter)
+        ).map((publication) => {
+          const format = publication.url.split(".").reverse()[0];
+          return (
+            <p key={publication.title}>
+              {publication.authors.map((author, index) => (
+                <>
+                  <Author key={author} name={author} />
+                  {index < publication.authors.length - 1 ? (
+                    <span key={`${author}_separator`}>, </span>
+                  ) : (
+                    <span key={`${author}_separator`}> </span>
+                  )}
+                </>
+              ))}
+              <span className="publication-year">{`(${publication.year}). `}</span>
+              <Title Name={publication.title} />
+              <span className="publication-title-separator">. </span>
+              <span className="publication-journal">{`${publication.journal} `}</span>
+              <span className="publication-journal-issue">{`${publication.journalIssue}. `}</span>
+              {!!publication.doi && (
+                <>
+                  <span className="publication-doi">doi: </span>
+                  <a href={`https://doi.org/${publication.doi}`}>
+                    {publication.doi}
+                  </a>
+                </>
+              )}
+              <span className="publication-url"> [</span>
+              <a href={publication.url}>{format.toUpperCase()}</a>
+              <span className="publication-url">]</span>
+            </p>
+          );
+        })}
+      </div>
+    </>
+  );
 }
