@@ -1,0 +1,19 @@
+.publication-url {
+  color: #5db2ff;
+  border-color: #5db2ff;
+  padding: 5px 0.4rem;
+  font-size: 0.6rem;
+  border-radius: 0.2rem;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid;
+  margin-left: 1em;
+}
+
+.publication-url:hover {
+  background-color: #5db2ff;
+}

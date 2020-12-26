@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { MDBBtnGroup, MDBBtn } from "mdbreact";
-
+import "./Publications.css";
 import PUBLICATIONS, { ME } from "./data";
 
 const Author = ({ name }) =>
@@ -26,35 +26,37 @@ const CATEGORIES = Array.from(
 
 const Filters = ({ selected, onSelect }) => {
   return (
-    <div className="btn-toolbar" role="toolbar" aria-label="Filters">
-      <MDBBtnGroup className="mr-1">
-        <MDBBtn disabled={!selected} onClick={() => onSelect()}>
-          Clear
-        </MDBBtn>
-      </MDBBtnGroup>
-      <MDBBtnGroup className="mr-2">
-        {YEARS.map((year) => (
-          <MDBBtn
-            key={year}
-            disabled={selected === year}
-            onClick={() => onSelect(year)}
-          >
-            {year}
-          </MDBBtn>
-        ))}
-      </MDBBtnGroup>
-      <MDBBtnGroup className="mr-2">
-        {CATEGORIES.map((category) => (
-          <MDBBtn
-            key={category}
-            disabled={selected === category}
-            onClick={() => onSelect(category)}
-          >
-            {category}
-          </MDBBtn>
-        ))}
-      </MDBBtnGroup>
-    </div>
+    <>
+      <MDBBtn disabled={!selected} onClick={() => onSelect()}>
+        Clear filters
+      </MDBBtn>
+      <div className="btn-toolbar" role="toolbar" aria-label="Filters">
+        <MDBBtnGroup className="mr-2">
+          {YEARS.map((year) => (
+            <MDBBtn
+              key={year}
+              disabled={selected === year}
+              onClick={() => onSelect(year)}
+            >
+              {year}
+            </MDBBtn>
+          ))}
+        </MDBBtnGroup>
+      </div>
+      <div className="btn-toolbar" role="toolbar" aria-label="Filters">
+        <MDBBtnGroup className="mr-2">
+          {CATEGORIES.map((category) => (
+            <MDBBtn
+              key={category}
+              disabled={selected === category}
+              onClick={() => onSelect(category)}
+            >
+              {category}
+            </MDBBtn>
+          ))}
+        </MDBBtnGroup>
+      </div>
+    </>
   );
 };
 
@@ -70,39 +72,38 @@ export default function Publications() {
         {PUBLICATIONS.filter(
           ({ categories, year }) =>
             !filter || year === filter || categories.includes(filter)
-        ).map((publication) => {
-          const format = publication.url.split(".").reverse()[0];
-          return (
-            <p key={publication.title}>
-              {publication.authors.map((author, index) => (
-                <>
-                  <Author key={author} name={author} />
-                  {index < publication.authors.length - 1 ? (
-                    <span key={`${author}_separator`}>, </span>
-                  ) : (
-                    <span key={`${author}_separator`}> </span>
-                  )}
-                </>
-              ))}
-              <span className="publication-year">{`(${publication.year}). `}</span>
-              <Title Name={publication.title} />
-              <span className="publication-title-separator">. </span>
-              <span className="publication-journal">{`${publication.journal} `}</span>
-              <span className="publication-journal-issue">{`${publication.journalIssue}. `}</span>
-              {!!publication.doi && (
-                <>
-                  <span className="publication-doi">doi: </span>
-                  <a href={`https://doi.org/${publication.doi}`}>
-                    {publication.doi}
-                  </a>
-                </>
-              )}
-              <span className="publication-url"> [</span>
-              <a href={publication.url}>{format.toUpperCase()}</a>
-              <span className="publication-url">]</span>
-            </p>
-          );
-        })}
+        ).map((publication) => (
+          <p key={publication.title}>
+            {publication.authors.map((author, index) => (
+              <>
+                <Author key={author} name={author} />
+                {index < publication.authors.length - 1 ? (
+                  <span key={`${author}_separator`}>, </span>
+                ) : (
+                  <span key={`${author}_separator`}> </span>
+                )}
+              </>
+            ))}
+            <span className="publication-year">{`(${publication.year}). `}</span>
+            <Title Name={publication.title} />
+            <span className="publication-title-separator">. </span>
+            <span className="publication-journal">{`${publication.journal} `}</span>
+            <span className="publication-journal-issue">{`${publication.journalIssue}.`}</span>
+            {!!publication.doi && (
+              <>
+                <span className="publication-doi"> doi: </span>
+                <a href={`https://doi.org/${publication.doi}`}>
+                  {publication.doi}
+                </a>
+              </>
+            )}
+            {!!publication.url && (
+              <a className="publication-url" href={publication.url}>
+                PDF
+              </a>
+            )}
+          </p>
+        ))}
       </div>
     </>
   );
