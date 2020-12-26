@@ -6,3 +6,32 @@
   flex-direction: column;
   align-items: center;
 }
+
+.App-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.App-section-left {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 33.33333333%;
+  min-width: 320px;
+  align-items: center;
+}
+
+.App-section-right {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 66.66666666%;
+}
+
+.App-paragraph {
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: left;
+}

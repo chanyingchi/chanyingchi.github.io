@@ -1,0 +1,15 @@
+.personal-image {
+  width: 230px;
+  height: 250px;
+}
+
+.paragraph-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style-type: none;
+}

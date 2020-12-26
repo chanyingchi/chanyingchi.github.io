@@ -18,7 +18,7 @@ const ITEMS = {
   contact: "Contact",
 };
 
-function NavBar({ onSelect }) {
+export default function NavBar() {
   const [isOpen, setOpen] = useState(false);
   const toggleCollapse = () => {
     setOpen((open) => !open);
@@ -33,7 +33,7 @@ function NavBar({ onSelect }) {
       <MDBCollapse id="navbarCollapse3" isOpen={isOpen} navbar>
         <MDBNavbarNav right>
           {Object.keys(ITEMS).map((key) => (
-            <MDBNavItem key={key} className="NavBar-link" onClick={() => onSelect(key)}>
+            <MDBNavItem key={key} className="NavBar-link">
               <a href={`#${key}`} className="white-text">
                 {ITEMS[key]}
               </a>
@@ -44,5 +44,3 @@ function NavBar({ onSelect }) {
     </MDBNavbar>
   );
 }
-
-export default NavBar;

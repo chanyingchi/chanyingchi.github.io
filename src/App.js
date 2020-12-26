@@ -1,32 +1,35 @@
-import logo from "./logo.svg";
 import "./App.css";
 import NavBar from "./NavBar";
+import Home from "./home/Home";
 
-import LINKS from './links';
-
-function App() {
-  const onNavSelect = (key) => console.log(key);
+export default function App() {
   return (
-    <div className="App">
-      <NavBar onSelect={onNavSelect} />
-      <div id="home" className="App-section">
-        <div id="home" className="App-home-left">
-          <img src={logo} className="personal-image" alt="logo" />
-          <p>
-            Ying-Chi (Ginny) Chan
-          </p>
-          <a
-            className="App-link"
-            href={LINKS.googleScholar}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Google scholar
-          </a>
+    <>
+      <NavBar />
+      <div className="App">
+        <div id="home" className="App-section">
+          <Home />
+        </div>
+        <div id="news" className="App-section">
+          <div className="App-section-left">News</div>
+          <div className="App-section-right">News TODO</div>
+        </div>
+
+        <div id="publications" className="App-section">
+          <div className="App-section-left">publications</div>
+          <div className="App-section-right">publications TODO</div>
+        </div>
+
+        <div id="multimedia" className="App-section">
+          <div className="App-section-left">multimedia</div>
+          <div className="App-section-right">multimedia TODO</div>
+        </div>
+
+        <div id="contact" className="App-section">
+          <div className="App-section-left">contact</div>
+          <div className="App-section-right">contact TODO</div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
-
-export default App;
