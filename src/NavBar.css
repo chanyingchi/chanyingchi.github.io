@@ -1,0 +1,8 @@
+.NavBar-link {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.NavBar-link:hover {
+  background-color: #282c34;
+}
