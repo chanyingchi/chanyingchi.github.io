@@ -30,9 +30,15 @@ const PUBLICATIONS = [
   },
   {
     authors: [
-      "Muller, J.R., Chen, Y.P., Aarninkhof, S.G.,",
+      "Muller, J.R."
+      , "Chen, Y.P.", 
+      "Aarninkhof, S.G.",
       ME,
-      "Piersma, T., van Maren, D.S., Tao, J.F., Wang, Z.B. and Gong, Z.",
+      "Piersma, T.", 
+      "van Maren, D.S.", 
+      "Tao, J.F.", 
+      "Wang, Z.B.", 
+      "Gong, Z.",
     ],
     year: 2020,
     title:
@@ -53,7 +59,13 @@ const PUBLICATIONS = [
   {
     authors: [
       ME,
-      "Tibbitts, T.L., Lok, T., Hassell, C.J., Peng, H.-B., Ma, Z., Zhang, Z., Piersma, T.",
+      "Tibbitts, T.L.",
+      "Lok, T.",
+      "Hassell, C.J.",
+      "Peng, H.-B.",
+      "Ma, Z.",
+      "Zhang, Z.",
+      "Piersma, T.",
     ],
     year: 2019,
     title:
@@ -68,12 +80,17 @@ const PUBLICATIONS = [
   {
     authors: [
       ME,
-      "Peng, H.-B., Han, Y.-X., Chung, S. S.-W., Li, J., Zhang, L., Piersma, T.",
+      "Peng, H.-B.", 
+      "Han, Y.-X.",
+      "Chung, S. S.-W.",
+      "Li, J.",
+      "Zhang, L.",
+      "Piersma, T."
     ],
     year: 2019,
     title:
       "Conserving unprotected important coastal habitats in the Yellow Sea: Shorebird occurrence, distribution and food resources at Lianyungang",
-    journal: " Global Ecology and Conservation",
+    journal: "Global Ecology and Conservation",
     journalIssue: "20: e00724",
     url:
       "https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/1365-2664.13474",
@@ -85,11 +102,92 @@ const PUBLICATIONS = [
       "Satellite tracking",
     ],
   },
+      {
+        authors: [
+      "Zhang, S.-D.", 
+      "Ma, Z.",
+          "Choi, C.-Y.",
+      "Peng, H.-B.", 
+          "Melville, D.S.",
+          "Zhao, T.-T.", 
+          "Bai, Q.-Q.",
+          "Liu, W.-L.",
+      ME,
+       "van Gils, J.A.",
+       "Piersma, T."   
+    ],
+    year: 2019,
+    title:
+      "Morphological and digestive adjustments buffer performance: how staging shorebirds cope with severe food declines",
+    journal: "Ecology and Evolution",
+    journalIssue: "9(7): 3868-3878",
+    url:
+      "https://onlinelibrary.wiley.com/doi/epdf/10.1002/ece3.5013",
+    doi: "10.1002/ece3.5013",
+    categories: [
+      "Great Knot",
+      "Yellow Sea"],
+  },
+  {
+     authors: [
+       "Zhang, S.-D.", 
+      "Ma, Z.",
+          "Choi, C.-Y.",
+      "Peng, H.-B.", 
+       "Bai, Q.-Q.",
+          "Liu, W.-L.",
+    "Tan, K.",
+      "Melville, D. S.",
+       "He, P.",
+    ME, 
+       "van Gils, J. A.", 
+       "Piersma, T." 
+     ],
+    year: 2018,
+    title:
+      "Persistent use of a shorebird staging site in the Yellow Sea despite severe declines in food resources implies a lack of alternatives",
+    journal: "Bird Conservation International",
+    journalIssue: "28(4): 534-548 ",
+    url:"https://www.rug.nl/research/portal/files/62879746/Bird_Conservation_International_2018_Persistent_use_of_a_shorebird_staging_site.pdf"
+     doi: "10.1017/S0959270917000430",
+     categories: [
+      "Great Knot",
+    "Bar-tailed Godwit",
+      "Yellow Sea"],
+  },
+  {
+     authors: [
+       "Piersma, T.",
+       ME,
+       "Mu, T.",
+       "Hassell, C. J.",
+       "Melville, D. S.",
+       "Peng, H. B.",
+       "Ma, Z.",
+       "Zhang, Z.",
+       "Wilcove, D. S." 
+        year: 2017,
+       title:"Loss of habitat leads to loss of birds: reflections on the Jiangsu, China, coastal development plans" ,
+         journal: "Wader Study",
+    journalIssue: "124: 93–98",
+    url:"https://www.waderstudygroup.org/wp-content/uploads/2017/08/1242-Forum.pdf.pdf"
+     doi: "10.18194/ws.00077",
+     categories: [
+      "Great Knot",
+    "Bar-tailed Godwit",
+      "Yellow Sea",
+     "Satellite Tracking"],
   {
     authors: [
-      "Melville, D. S., Peng, H. B.,",
+      "Melville, D. S.",
+      "Peng, H. B.",
       ME,
-      "Bai, Q., He, P., Tan, K., Chen, Y., Zhang, S. & Ma, Z.",
+      "Bai, Q.",
+      "He, P.",
+      "Tan, K.",
+      "Chen, Y.",
+      "Zhang, S.", 
+      "Ma, Z.",
     ],
     year: 2016,
     title: (
