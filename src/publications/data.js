@@ -126,6 +126,17 @@ const PUBLICATIONS = [
     categories: ["Great Knot", "Yellow Sea"],
   },
   {
+ authors: [ME],
+ year: 2018,
+ title: "Safeguarding the future of migratory shorebirds along the Chinese coast – what else matters?",
+ journal: "Wader Study",
+ journalIssue: "126(1), 75-76",
+ doi: "10.18194/ws.00142",
+ url: "https://www.waderstudygroup.org/wp-content/uploads/2019/04/1261-Wading-through-Literature.pdf",
+ categories: ["Great Knot", "Bar-tailed Godwit","Yellow Sea"]
+  },
+
+  {
     authors: [
       "Zhang, S.-D.",
       "Ma, Z.",
@@ -177,6 +188,65 @@ const PUBLICATIONS = [
       "Satellite Tracking",
     ],
   },
+     {
+ authors:[
+   ME, "Brugge, M.",
+   "Tibbitts, T. L.",
+   "Dekinga, A.",
+   "Porter, R.",
+   "Klaassen, R.",
+   "Piersma, T."],
+     year: 2016,
+    title:  "Testing an attachment method for solar-powered tracking devices on a long-distance migrating shorebird",
+    journal: "Journal of Ornithology",
+    journalIssue: "157 (1), 277-287",
+     doi: "10.1007/s10336-015-1276-4",
+     url: "https://www.researchgate.net/profile/Ying_Chi_Chan/publication/281450471_Testing_an_attachment_method_for_solar-powered_tracking_devices_on_a_long-distance_migrating_shorebird/links/55e844c008ae21d099c16ea8.pdf",
+     categories: ["Red Knot","Wadden Sea"]
+   },
+  {
+     authors:[
+  "Bijleveld, A. I.", 
+      "MacCurdy, R. B.",
+       ME, 
+       "Penning, E.", 
+       "Gabrielson, R. M.",
+       "Cluderay, J.", 
+       "Spaulding, E. L.", 
+       "Dekinga A.", 
+       "Holthuijsen, S.", 
+       "ten Horn, J.", 
+       "Brugge, M.", 
+       "van Gils, J. A.", 
+       "Winkler, D. W.",
+       "Piersma, T." ],
+         year: 2016,
+       title: "Understanding spatial distributions: negative density-dependence in prey causes predators to trade-off prey quantity with quality",
+    journal: "Proceedings of the Royal Society B: Biological Sciences",
+   journalIssue:"283(1828), 20151557",
+    doi: "10.1098/rspb.2015.1557",
+    url: "https://royalsocietypublishing.org/doi/pdf/10.1098/rspb.2015.1557"
+  },
+   {
+    authors: [
+  "Piersma, T.",
+"Lok, T.",
+   "Chen, Y.",
+    "Hassell, C. J.",
+      "Yang, H.", 
+      "Boyle, A.",
+      "Slaymaker, M.", 
+      ME, 
+      "Melville, D.S.", 
+      "Zhang, Z.",
+      "Ma, Z."],
+     year:2016,
+     title: "Simultaneous declines in summer survival of three shorebird species signals a flyway at risk",
+     journal:"Journal of Applied Ecology", 
+     journalIssue:"53 (2), 479-490",
+     doi: "10.1111/1365-2664.12582",
+     url:"https://besjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/1365-2664.12582",
+   },
   {
     authors: [
       "Melville, D. S.",
