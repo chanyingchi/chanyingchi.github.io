@@ -35,3 +35,25 @@ a .media:hover {
 .media-text {
   font-size: 1rem;
 }
+
+.Youtube-modal .modal-content {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.Youtube-video {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.Youtube-close {
+  border: none;
+  background-color: transparent;
+}
+
+.Youtube-close img {
+  width: 40px;
+  height: 40px;
+}
