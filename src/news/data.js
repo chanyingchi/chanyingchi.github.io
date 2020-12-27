@@ -1,5 +1,5 @@
-import Image from '../best-student-paper_EAAFSSM_small.png';
-import Image_water from './
+import Image_EAAFSSM from './best-student-paper_EAAFSSM_small.png';
+import Image_water from './Editor choice MDPI Water.jpg';
 const NEWS = [
   {
     title: "Best Student Paper award at the 1st East Asian-Australasian Shorebird Science meeting!",
@@ -8,7 +8,7 @@ const NEWS = [
     has won the Best Student Paper award in the EAA Shorebird Science meeting held on 3-5 November 2020. 
     The title of her talk is 'Applications of satellite tracking of shorebirds in coastal conservation'. Congratulations!
 ",
-    image: Image,
+    image: Image_EAAFSSM,
     url: "https://www.eaaflyway.net/1st-eaafssm-report/"
   },
   {
