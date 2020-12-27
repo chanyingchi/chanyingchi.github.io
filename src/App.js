@@ -1,6 +1,7 @@
 import "./App.css";
 import NavBar from "./NavBar";
 import Home from "./home/Home";
+import News from "./news/News";
 import Publications from "./publications/Publications";
 import Footer from "./Footer";
 
@@ -13,8 +14,8 @@ export default function App() {
           <Home />
         </div>
         <div id="news" className="App-section">
-          <div className="App-section-left">News</div>
-          <div className="App-section-right">News TODO</div>
+          <div className="App-section-left"><h1>News</h1></div>
+          <div className="App-section-right"><News /></div>
         </div>
 
         <div id="publications" className="App-section">
