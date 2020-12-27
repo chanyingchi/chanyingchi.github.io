@@ -25,7 +25,6 @@ const Group = ({ color, children }) => (
 const Filters = ({ selected, onSelect }) => {
   const Button = ({ category, label }) => (
     <MDBBtn
-      key={category}
       className="filter-button"
       disabled={selected === category}
       onClick={() => onSelect(category)}
@@ -40,7 +39,7 @@ const Filters = ({ selected, onSelect }) => {
       </Group>
       <Group color="red">
         {YEARS.map((year) => (
-          <Button category={year} />
+          <Button key={year} category={year} />
         ))}
       </Group>
       {Object.keys(CATEGORIES).map((key) => (
@@ -51,7 +50,7 @@ const Filters = ({ selected, onSelect }) => {
           }
         >
           {CATEGORIES[key].map((category) => (
-            <Button category={category} />
+            <Button key={category} category={category} />
           ))}
         </Group>
       ))}
@@ -76,14 +75,14 @@ export default function Publications() {
             <Title Name={publication.title} />
             <br />
             {publication.authors.map((author, index) => (
-              <>
-                <Author key={author} name={author} />
+              <React.Fragment key={author}>
+                <Author name={author} />
                 {index < publication.authors.length - 1 ? (
-                  <span key={`${author}_separator`}>, </span>
+                  <span>, </span>
                 ) : (
-                  <span key={`${author}_separator`}> </span>
+                  <span> </span>
                 )}
-              </>
+              </React.Fragment>
             ))}
             <span className="publication-year">{`(${publication.year}).`}</span>
             <br />
