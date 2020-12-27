@@ -1,0 +1,37 @@
+.media {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2em;
+  color: black;
+}
+
+a .media:hover {
+  color: darkblue;
+}
+
+.media-left {
+  display: flex;
+  flex-direction: column;
+  flex: 320 320;
+  min-width: 320px;
+  align-items: center;
+}
+
+.media-right {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  flex: 480 480;
+  min-width: 480px;
+}
+
+.media-image {
+  object-fit: scale-down;
+}
+
+.media-text {
+  font-size: 1rem;
+}

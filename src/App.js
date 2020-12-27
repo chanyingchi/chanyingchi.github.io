@@ -3,6 +3,7 @@ import NavBar from "./NavBar";
 import Home from "./home/Home";
 import News from "./news/News";
 import Publications from "./publications/Publications";
+import Multimedia from "./multimedia/Multimedia";
 import Footer from "./Footer";
 
 export default function App() {
@@ -34,8 +35,10 @@ export default function App() {
 
         <div id="multimedia" className="App-section">
           <div className="App-section-content">
-            <div className="App-section-left">multimedia</div>
-            <div className="App-section-right">multimedia TODO</div>
+            <div className="">
+              <h1>Multimedia</h1>
+              <Multimedia />
+            </div>
           </div>
         </div>
       </div>
