@@ -7,15 +7,13 @@ import "./Multimedia.css";
 import CloseIcon from "./close.svg";
 
 const UrlMultimedia = ({ media }) => (
-  <a href={media.url} target="_blank" rel="noreferrer">
-    <div className="App-paragraph media">
-      <div className="media-left">
-        <img className="media-image" src={media.image} alt={media.title} />
-      </div>
-      <div className="media-right">
-        <h4 className="media-title">{media.title}</h4>
-        <p className="media-text">{media.text}</p>
-      </div>
+  <a className="Media" href={media.url} target="_blank" rel="noreferrer">
+    <div className="Media-left">
+      <img className="Media-image" src={media.image} alt={media.title} />
+    </div>
+    <div className="App-paragraph Media-right">
+      <h4 className="Media-title">{media.title}</h4>
+      <p className="Media-text">{media.text}</p>
     </div>
   </a>
 );
@@ -28,8 +26,8 @@ const YouTubeMultimedia = ({ media }) => {
 
   return (
     <>
-      <div className="App-paragraph media">
-        <div className="media-left">
+      <div className="Media">
+        <div className="Media-left">
           <YouTube
             videoId={media.youtube}
             opts={{
@@ -44,9 +42,9 @@ const YouTubeMultimedia = ({ media }) => {
             }}
           />
         </div>
-        <div className="media-right">
-          <h4 className="media-title">{media.title}</h4>
-          <p className="media-text">{media.text}</p>
+        <div className="App-paragraph Media-right">
+          <h4 className="Media-title">{media.title}</h4>
+          <p className="Media-text">{media.text}</p>
         </div>
       </div>
 
@@ -70,7 +68,10 @@ const YouTubeMultimedia = ({ media }) => {
             }}
             onEnd={() => setModalShown(false)}
           />
-          <button className="Youtube-close" onClick={() => setModalShown(false)}>
+          <button
+            className="Youtube-close"
+            onClick={() => setModalShown(false)}
+          >
             <img src={CloseIcon} alt="close" />
           </button>
         </div>

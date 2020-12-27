@@ -17,6 +17,7 @@ export default function App() {
           </div>
         </div>
         <div id="news" className="App-section">
+          <div className="App-section-grey" />
           <div className="App-section-content">
             <div className="App-section-left">
               <h1>News</h1>
@@ -34,11 +35,12 @@ export default function App() {
         </div>
 
         <div id="multimedia" className="App-section">
+          <div className="App-section-grey" />
           <div className="App-section-content">
-            <div className="">
+            <div className="App-section-left">
               <h1>Multimedia</h1>
-              <Multimedia />
             </div>
+            <Multimedia />
           </div>
         </div>
       </div>

@@ -8,6 +8,7 @@
 }
 
 .news-image {
+  max-width: 100vw;
   object-fit: scale-down;
   margin-bottom: 1em;
 }

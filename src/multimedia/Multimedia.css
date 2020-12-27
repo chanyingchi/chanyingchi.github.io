@@ -1,4 +1,4 @@
-.media {
+.Media {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -8,31 +8,35 @@
   color: black;
 }
 
-a .media:hover {
+a .Media:hover {
   color: darkblue;
 }
 
-.media-left {
+.Media-left {
   display: flex;
   flex-direction: column;
   flex: 320 320;
   min-width: 320px;
+  padding-left: 15px;
+  padding-right: 15px;
   align-items: center;
 }
 
-.media-right {
+.Media-right {
   text-align: left;
   display: flex;
   flex-direction: column;
   flex: 480 480;
   min-width: 480px;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
-.media-image {
+.Media-image {
   object-fit: scale-down;
 }
 
-.media-text {
+.Media-text {
   font-size: 1rem;
 }
 
