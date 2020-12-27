@@ -144,7 +144,7 @@ const PUBLICATIONS = [
   },
   {
     authors: [ME],
-    year: 2018,
+    year: 2019,
     title:
       "Safeguarding the future of migratory shorebirds along the Chinese coast – what else matters?",
     journal: "Wader Study",
