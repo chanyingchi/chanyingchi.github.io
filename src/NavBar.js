@@ -17,7 +17,6 @@ const ITEMS = {
   news: "News",
   publications: "Publications",
   multimedia: "Multimedia",
-  contact: "Contact",
 };
 
 export default function NavBar() {

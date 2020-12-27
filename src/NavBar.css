@@ -1,6 +1,8 @@
 .NavBar-link {
   padding-left: 0.5em;
   padding-right: 0.5em;
+  font-size: 1.1rem;
+  font-weight: 400;
 }
 
 .NavBar-link:hover {
