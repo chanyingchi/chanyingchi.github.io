@@ -12,7 +12,7 @@ export default function Home() {
         <h2>{NAME}</h2>
 
         <a
-          className="App-link"
+          className="App-link email"
           href={`mailto:${EMAIL}`}
           target="_blank"
           rel="noopener noreferrer"

@@ -27,7 +27,7 @@ export default function NavBar() {
   };
 
   return (
-    <MDBNavbar color="indigo" dark expand="md">
+    <MDBNavbar className="App-NavBar" color="indigo" dark expand="md">
       <MDBNavbarBrand>
         <strong className="white-text">{NAME}</strong>
       </MDBNavbarBrand>

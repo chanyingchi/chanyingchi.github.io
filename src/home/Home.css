@@ -1,6 +1,7 @@
 .personal-image {
   width: 230px;
   height: 250px;
+  margin-bottom: 1em;
 }
 
 .paragraph-section {
@@ -10,6 +11,12 @@
   flex-wrap: wrap;
 }
 
+.email {
+  color: #424242;
+  font-size: 1.2rem;
+  margin-bottom: 1em;
+}
+
 ul {
   padding-inline-start: 20px;
 }
@@ -17,4 +24,8 @@ ul {
 ul.education {
   list-style-type: none;
   padding-inline-start: 2px;
+}
+
+ul.education li {
+  margin-bottom: 5px;
 }

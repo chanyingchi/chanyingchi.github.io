@@ -1,0 +1,17 @@
+.news {
+  margin-bottom: 2em;
+  color: black;
+}
+
+.news:hover {
+  color: darkblue;
+}
+
+.news-image {
+  object-fit: scale-down;
+  margin-bottom: 1em;
+}
+
+.news-text {
+  font-size: 1rem;
+}

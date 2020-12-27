@@ -92,13 +92,22 @@ export default function Publications() {
             {!!publication.doi && (
               <>
                 <span className="publication-doi"> doi: </span>
-                <a href={`https://doi.org/${publication.doi}`}>
+                <a
+                  href={`https://doi.org/${publication.doi}`}
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   {publication.doi}
                 </a>
               </>
             )}
             {!!publication.url && (
-              <a className="publication-url" href={publication.url}>
+              <a
+                className="publication-url"
+                href={publication.url}
+                target="_blank"
+                rel="noreferrer"
+              >
                 PDF
               </a>
             )}

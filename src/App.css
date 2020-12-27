@@ -2,9 +2,14 @@
   text-align: center;
   background-color: #ffffff;
   min-height: 100vh;
+  max-width: 1280px;
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
 
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -12,6 +17,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
+}
+
+.App-NavBar {
+  position: fixed;
+  width: 100%;
+  top: 0;
 }
 
 h1, h2, h3, h4 {
@@ -30,8 +41,8 @@ h1, h2, h3, h4 {
 .App-section-left {
   display: flex;
   flex-direction: column;
-  flex: 0 0 33.33333333%;
-  min-width: 266px;
+  flex: 320 320;
+  min-width: 320px;
   align-items: center;
 }
 
@@ -39,14 +50,16 @@ h1, h2, h3, h4 {
   text-align: left;
   display: flex;
   flex-direction: column;
-  flex: 0 0 66.66666666%;
+  flex: 480 480;
+  min-width: 480px;
 }
 
 .App-paragraph {
   padding-left: 15px;
-  padding-right: 15px;
+  padding-right: 45px;
   text-align: left;
   font-size: 1.1rem;
+  flex: 1 1;
 }
 
 .App-footer {
