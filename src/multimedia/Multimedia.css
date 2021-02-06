@@ -5,7 +5,28 @@
   align-items: center;
   justify-content: space-between;
   margin-bottom: 2em;
+  width: 100%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
   color: black;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .Media {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  
+    max-width: 800px;
+  
+    margin-left: auto;
+    margin-right: auto;
+  
+    position: relative;
+  }
 }
 
 a .Media:hover {

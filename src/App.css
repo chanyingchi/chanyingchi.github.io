@@ -60,6 +60,22 @@ h4 {
   z-index: 2;
 }
 
+@media only screen and (max-width: 800px) {
+  .App-section-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  
+    max-width: 800px;
+  
+    margin-left: auto;
+    margin-right: auto;
+  
+    position: relative;
+    z-index: 2;
+  }
+}
+
 .App-section-left {
   display: flex;
   flex-direction: column;
