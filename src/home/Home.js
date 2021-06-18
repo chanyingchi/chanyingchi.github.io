@@ -42,7 +42,9 @@ export default function Home() {
           environmental covariates. I have led and organised field expeditions
           in Australia and China in satellite tagging of birds, foraging
           behavioural observations, bird counting, resighting of colour-banded
-          birds and prey sampling. Currently I am a postdoctoral researcher at the Swiss Ornithological Institute at Sempach.
+          birds and prey sampling. 
+          </br>
+          Currently I am a postdoctoral researcher at the Swiss Ornithological Institute at Sempach.
         </p>
         <div className="paragraph-section">
           <div className="App-paragraph">
