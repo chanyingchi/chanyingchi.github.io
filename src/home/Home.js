@@ -43,8 +43,8 @@ export default function Home() {
           in Australia and China in satellite tagging of birds, foraging
           behavioural observations, bird counting, resighting of colour-banded
           birds and prey sampling. 
-          </br>
-          Currently I am a postdoctoral researcher at the Swiss Ornithological Institute at Sempach.
+          
+          Currently I am a postdoctoral researcher at the <b>Swiss Ornithological Institute</b> at Sempach.
         </p>
         <div className="paragraph-section">
           <div className="App-paragraph">
