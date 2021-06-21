@@ -37,7 +37,7 @@ const PUBLICATIONS = [
      When a typical jumper skips: itineraries and staging habitats used by Red Knots (<i>Calidris canutus piersmai</i>) 
      migrating between northwest Australia and the New Siberian Islands
      </span>
-      (,
+      ),
     journal: "Ibis",
     journalIssue: "",
     url: "https://onlinelibrary.wiley.com/doi/epdf/10.1111/ibi.12964",
