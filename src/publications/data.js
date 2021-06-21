@@ -3,6 +3,7 @@ export const ME = "Chan, Y.-C.";
 const GREAT_KNOT = "Great Knot";
 const RED_KNOT = "Red Knot";
 const BAR_TAILED_GODWIT = "Bar-tailed Godwit";
+const MACROBENTHOS = "Macrobenthos";
 const YELLOW_SEA = "Yellow Sea";
 const WADDEN_SEA = "Wadden Sea";
 const SURVIVAL_ANALYSIS = "Survival Analysis";
