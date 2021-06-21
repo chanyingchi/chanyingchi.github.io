@@ -15,8 +15,35 @@ export const CATEGORIES = {
   METHOD: [SURVIVAL_ANALYSIS, SATELLITE_TRACKING, INTERDISCIPLINARY],
 };
 
-
 const PUBLICATIONS = [
+  {
+    authors: [
+     "Piersma, T." ,
+      "Kok, E. M. A.",
+      "Hassell, C. J.",
+       "Peng, H.-B.",
+      "Verkuil, Y.I.",
+      "Lei, G.",
+      "Karagicheva, J.",
+      "Rakhimberdiev, E.",
+      "Howey, P.W.",
+      "Tibbitts, T.L.", 
+      ME,
+    ],
+    year: 2020,
+    title:
+      "When a typical jumper skips: itineraries and staging habitats used by Red Knots (<i>Calidris canutus piersmai</i>) migrating between northwest Australia and the New Siberian Islands",
+    journal: "Ibis",
+    journalIssue: "",
+    url: "https://onlinelibrary.wiley.com/doi/epdf/10.1111/ibi.12964",
+    doi: "10.1111/ibi.12964",
+    categories: [
+      RED_KNOT,
+      YELLOW_SEA,
+      SATELLITE_TRACKING,
+    ],
+  },
+
   {
     authors: [
       "Muller, J.R.",
