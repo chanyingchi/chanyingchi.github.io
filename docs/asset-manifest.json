@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.b83bc052.chunk.css",
-    "main.js": "/static/js/main.e759cb22.chunk.js",
-    "main.js.map": "/static/js/main.e759cb22.chunk.js.map",
+    "main.js": "/static/js/main.7f1f4adb.chunk.js",
+    "main.js.map": "/static/js/main.7f1f4adb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bd4d5c16.js",
     "runtime-main.js.map": "/static/js/runtime-main.bd4d5c16.js.map",
     "static/css/2.a0659502.chunk.css": "/static/css/2.a0659502.chunk.css",
@@ -14,6 +14,7 @@
     "static/js/2.f967088b.chunk.js.LICENSE.txt": "/static/js/2.f967088b.chunk.js.LICENSE.txt",
     "static/media/Editor_choice_MDPI_Water.64765a53.jpg": "/static/media/Editor_choice_MDPI_Water.64765a53.jpg",
     "static/media/GK-stops-map.772e4c05.jpg": "/static/media/GK-stops-map.772e4c05.jpg",
+    "static/media/PhD defense.aec6fad0.jpg": "/static/media/PhD defense.aec6fad0.jpg",
     "static/media/mdb.css": "/static/media/arrow_right.0897f985.svg",
     "static/media/best-student-paper_EAAFSSM_small.a305fb0d.png": "/static/media/best-student-paper_EAAFSSM_small.a305fb0d.png",
     "static/media/close.3721b02e.svg": "/static/media/close.3721b02e.svg",
@@ -25,6 +26,6 @@
     "static/css/2.a0659502.chunk.css",
     "static/js/2.f967088b.chunk.js",
     "static/css/main.b83bc052.chunk.css",
-    "static/js/main.e759cb22.chunk.js"
+    "static/js/main.7f1f4adb.chunk.js"
   ]
 }
