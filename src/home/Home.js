@@ -45,8 +45,9 @@ export default function Home() {
           birds and prey sampling.
         </p>
         <p className="App-paragraph">
-          Currently I am a postdoctoral researcher at the <b>Swiss Ornithological Institute</b> at Sempach.
-          Studying <a href="https://google.com" target="_blank" rel="noreferrer">red kites</a>.
+          Currently I am a postdoctoral researcher at the <b>Swiss Ornithological Institute</b> at Sempach 
+          within the <a href="https://www.vogelwarte.ch/en/projects/ecological-research/mechanisms-of-population-dynamics-in-red-kites" target="_blank" rel="noreferrer">Red Kite</a>
+          and <a href="https://www.vogelwarte.ch/en/projects/ecological-research/survival-rate,-range-use-and-dispersal-of-little-owls" target="_blank" rel="noreferrer">Little Owl</a> projects.
         </p>
         <div className="paragraph-section">
           <div className="App-paragraph">
