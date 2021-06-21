@@ -10,29 +10,33 @@ const SATELLITE_TRACKING = "Satellite Tracking";
 const INTERDISCIPLINARY = "Interdisciplinary";
 
 export const CATEGORIES = {
-  SPECIES: [GREAT_KNOT, RED_KNOT, BAR_TAILED_GODWIT],
+  SPECIES: [GREAT_KNOT, RED_KNOT, BAR_TAILED_GODWIT, MACROBENTHOS],
   PLACE: [YELLOW_SEA, WADDEN_SEA],
   METHOD: [SURVIVAL_ANALYSIS, SATELLITE_TRACKING, INTERDISCIPLINARY],
 };
 
 const PUBLICATIONS = [
-  {
+   {
     authors: [
      "Piersma, T." ,
       "Kok, E. M. A.",
       "Hassell, C. J.",
        "Peng, H.-B.",
-      "Verkuil, Y.I.",
+      "Verkuil, Y. I.",
       "Lei, G.",
       "Karagicheva, J.",
       "Rakhimberdiev, E.",
-      "Howey, P.W.",
-      "Tibbitts, T.L.", 
+      "Howey, P. W.",
+      "Tibbitts, T. L.", 
       ME,
     ],
-    year: 2020,
-    title:
-      "When a typical jumper skips: itineraries and staging habitats used by Red Knots (<i>Calidris canutus piersmai</i>) migrating between northwest Australia and the New Siberian Islands",
+    year: 2021,
+    title: (
+      <span>
+     When a typical jumper skips: itineraries and staging habitats used by Red Knots (<i>Calidris canutus piersmai</i>) 
+     migrating between northwest Australia and the New Siberian Islands
+     </span>
+      (,
     journal: "Ibis",
     journalIssue: "",
     url: "https://onlinelibrary.wiley.com/doi/epdf/10.1111/ibi.12964",
@@ -41,6 +45,33 @@ const PUBLICATIONS = [
       RED_KNOT,
       YELLOW_SEA,
       SATELLITE_TRACKING,
+    ],
+  },
+
+  {
+    authors: [
+     "Peng, H.-B.",
+      ME,
+      "Compton, T. J.",
+      "Cheng, X. F.",
+      "Melville, D. S.",
+      "Zhang, S. D.",
+      "Zhang, Z.",
+      "Lei, G.",
+      "Ma, Z.",
+      "Piersma, T." ,
+        ],
+    year: 2021,
+    title:
+      "Mollusc aquaculture homogenizes intertidal soft-sediment communities along the 18,400 km long coastline of China",
+    journal: "Diversity and Distributions",
+    journalIssue: "",
+    url: "https://onlinelibrary.wiley.com/doi/epdf/10.1111/ddi.13302",
+    doi: "10.1111/ddi.13302",
+    categories: [
+      MACROBENTHOS,
+      YELLOW_SEA,
+      
     ],
   },
 
