@@ -42,9 +42,11 @@ export default function Home() {
           environmental covariates. I have led and organised field expeditions
           in Australia and China in satellite tagging of birds, foraging
           behavioural observations, bird counting, resighting of colour-banded
-          birds and prey sampling. 
-          
+          birds and prey sampling.
+        </p>
+        <p className="App-paragraph">
           Currently I am a postdoctoral researcher at the <b>Swiss Ornithological Institute</b> at Sempach.
+          Studying <a href="https://google.com" target="_blank" rel="noreferrer">red kites</a>.
         </p>
         <div className="paragraph-section">
           <div className="App-paragraph">
@@ -62,8 +64,7 @@ export default function Home() {
             <h3>Education</h3>
             <ul className="education">
               <li>
-                <MDBIcon icon="graduation-cap" /> PhD University of
-                Groningen
+                <MDBIcon icon="graduation-cap" /> PhD University of Groningen
               </li>
               <li>
                 <MDBIcon icon="graduation-cap" /> MSc Ecology and Evolution (cum
