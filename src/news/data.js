@@ -1,5 +1,4 @@
-import Image_PhD from "./PhD defense.jpg";
-
+import Image_PhD from "./PhD_defense.jpg";
 import Image_EAAFSSM from "./best-student-paper_EAAFSSM_small.png";
 import Image_water from "./Editor_choice_MDPI_Water.jpg";
 
