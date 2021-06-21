@@ -6,8 +6,7 @@ const NEWS = [
     title:
       "PhD awarded!",
     text:
-      "The PhD thesis: Struggles Ashore - Migration Ecology of Threatened Shorebirds in the East Asian-Australasian Flyway 
-     was successfully defended on 28 May 2021.",
+      "The PhD thesis: Struggles Ashore - Migration Ecology of Threatened Shorebirds in the East Asian-Australasian Flyway was successfully defended on 28 May 2021.",
     image: Image_EAAFSSM,
     url: "https://chanyingchi.github.io/phdthesis",
   },
