@@ -2,6 +2,15 @@ import Image_EAAFSSM from "./best-student-paper_EAAFSSM_small.png";
 import Image_water from "./Editor_choice_MDPI_Water.jpg";
 
 const NEWS = [
+   {
+    title:
+      "PhD awarded!",
+    text:
+      "The PhD thesis: Struggles Ashore - Migration Ecology of Threatened Shorebirds in the East Asian-Australasian Flyway 
+     was successfully defended on 28 May 2021.",
+    image: Image_EAAFSSM,
+    url: "https://chanyingchi.github.io/phdthesis",
+  },
   {
     title:
       "Best Student Paper award at the 1st East Asian-Australasian Shorebird Science meeting!",
