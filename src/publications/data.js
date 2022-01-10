@@ -8,6 +8,7 @@ const YELLOW_SEA = "Yellow Sea";
 const WADDEN_SEA = "Wadden Sea";
 const SURVIVAL_ANALYSIS = "Survival Analysis";
 const SATELLITE_TRACKING = "Satellite Tracking";
+const REVIEW = "Review";
 const INTERDISCIPLINARY = "Interdisciplinary";
 
 export const CATEGORIES = {
