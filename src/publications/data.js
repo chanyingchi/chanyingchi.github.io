@@ -13,10 +13,50 @@ const INTERDISCIPLINARY = "Interdisciplinary";
 export const CATEGORIES = {
   SPECIES: [GREAT_KNOT, RED_KNOT, BAR_TAILED_GODWIT, MACROBENTHOS],
   PLACE: [YELLOW_SEA, WADDEN_SEA],
-  METHOD: [SURVIVAL_ANALYSIS, SATELLITE_TRACKING, INTERDISCIPLINARY],
+  METHOD: [SURVIVAL_ANALYSIS, SATELLITE_TRACKING, REVIEW, INTERDISCIPLINARY],
 };
 
 const PUBLICATIONS = [
+  {
+    authors: [
+      ME, 
+    ],
+    year: 2021,
+    title: (
+      <span>
+  Struggles Ashore: Migration Ecology of Threatened Shorebirds in the East Asian− Australasian Flyway
+     </span>
+      ),
+    journal: "University of Groningen",
+    journalIssue: "",
+    url: "https://chanyingchi.github.io/phdthesis/",
+    doi: "10.33612/diss.170156504",
+    categories: [
+      GREAT_KNOT, RED_KNOT, BAR_TAILED_GODWIT, YELLOW_SEA, SATELLITE_TRACKING
+    ],
+  },
+  {
+    authors: [
+     "Lameris, T. K.",
+      "Hoekendijk, J." ,
+      "... Brasseur,  S.",
+      ME,
+      "... van Langevelde, F.", 
+    ],
+    year: 2021,
+    title: (
+      <span>
+     Migratory vertebrates shift migration timing and distributions in a warming Arctic
+     </span>
+      ),
+    journal: "Animal Migration",
+    journalIssue: "8: 110-131",
+    url: "https://doi.org/10.1515/ami-2020-0112",
+    doi: "10.1515/ami-2020-0112",
+    categories: [
+      REVIEW,
+    ],
+  },
    {
     authors: [
      "Piersma, T." ,
