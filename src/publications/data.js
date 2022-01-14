@@ -19,80 +19,71 @@ export const CATEGORIES = {
 
 const PUBLICATIONS = [
   {
-    authors: [
-      ME, 
-    ],
+    authors: [ME],
     year: 2021,
-    title: (
-      <span>
-  Struggles Ashore: Migration Ecology of Threatened Shorebirds in the East Asian− Australasian Flyway
-     </span>
-      ),
+    title:
+      "Struggles Ashore: Migration Ecology of Threatened Shorebirds in the East Asian−Australasian Flyway",
     journal: "University of Groningen",
     journalIssue: "",
     url: "https://chanyingchi.github.io/phdthesis/",
     doi: "10.33612/diss.170156504",
     categories: [
-      GREAT_KNOT, RED_KNOT, BAR_TAILED_GODWIT, YELLOW_SEA, SATELLITE_TRACKING
+      GREAT_KNOT,
+      RED_KNOT,
+      BAR_TAILED_GODWIT,
+      YELLOW_SEA,
+      SATELLITE_TRACKING,
     ],
   },
   {
     authors: [
-     "Lameris, T. K.",
-      "Hoekendijk, J." ,
+      "Lameris, T. K.",
+      "Hoekendijk, J.",
       "... Brasseur,  S.",
       ME,
-      "... van Langevelde, F.", 
+      "... van Langevelde, F.",
     ],
     year: 2021,
-    title: (
-      <span>
-     Migratory vertebrates shift migration timing and distributions in a warming Arctic
-     </span>
-      ),
+    title:
+      "Migratory vertebrates shift migration timing and distributions in a warming Arctic",
     journal: "Animal Migration",
     journalIssue: "8: 110-131",
     url: "https://doi.org/10.1515/ami-2020-0112",
     doi: "10.1515/ami-2020-0112",
-    categories: [
-      REVIEW,
-    ],
+    categories: [REVIEW],
   },
-   {
+  {
     authors: [
-     "Piersma, T." ,
+      "Piersma, T.",
       "Kok, E. M. A.",
       "Hassell, C. J.",
-       "Peng, H.-B.",
+      "Peng, H.-B.",
       "Verkuil, Y. I.",
       "Lei, G.",
       "Karagicheva, J.",
       "Rakhimberdiev, E.",
       "Howey, P. W.",
-      "Tibbitts, T. L.", 
+      "Tibbitts, T. L.",
       ME,
     ],
     year: 2021,
     title: (
       <span>
-     When a typical jumper skips: itineraries and staging habitats used by Red Knots (<i>Calidris canutus piersmai</i>) 
-     migrating between northwest Australia and the New Siberian Islands
-     </span>
-      ),
+        When a typical jumper skips: itineraries and staging habitats used by
+        Red Knots (<i>Calidris canutus piersmai</i>) migrating between northwest
+        Australia and the New Siberian Islands
+      </span>
+    ),
     journal: "Ibis",
     journalIssue: "",
     url: "https://onlinelibrary.wiley.com/doi/epdf/10.1111/ibi.12964",
     doi: "10.1111/ibi.12964",
-    categories: [
-      RED_KNOT,
-      YELLOW_SEA,
-      SATELLITE_TRACKING,
-    ],
+    categories: [RED_KNOT, YELLOW_SEA, SATELLITE_TRACKING],
   },
 
   {
     authors: [
-     "Peng, H.-B.",
+      "Peng, H.-B.",
       ME,
       "Compton, T. J.",
       "Cheng, X. F.",
@@ -101,8 +92,8 @@ const PUBLICATIONS = [
       "Zhang, Z.",
       "Lei, G.",
       "Ma, Z.",
-      "Piersma, T." ,
-        ],
+      "Piersma, T.",
+    ],
     year: 2021,
     title:
       "Mollusc aquaculture homogenizes intertidal soft-sediment communities along the 18,400 km long coastline of China",
@@ -110,11 +101,7 @@ const PUBLICATIONS = [
     journalIssue: "",
     url: "https://onlinelibrary.wiley.com/doi/epdf/10.1111/ddi.13302",
     doi: "10.1111/ddi.13302",
-    categories: [
-      MACROBENTHOS,
-      YELLOW_SEA,
-      
-    ],
+    categories: [MACROBENTHOS, YELLOW_SEA],
   },
 
   {
@@ -162,8 +149,7 @@ const PUBLICATIONS = [
       "Ecological impact of land reclamation on Jiangsu coast (China): A novel ecotope assessment for Tongzhou Bay",
     journal: "Water Science and Engineering",
     journalIssue: "13(1): 57-64",
-    url:
-      "https://www.sciencedirect.com/science/article/pii/S1674237020300211/pdfft?md5=add130fcedaf5a9cdb18bb45844dee85&pid=1-s2.0-S1674237020300211-main.pdf",
+    url: "https://www.sciencedirect.com/science/article/pii/S1674237020300211/pdfft?md5=add130fcedaf5a9cdb18bb45844dee85&pid=1-s2.0-S1674237020300211-main.pdf",
     doi: "10.1016/j.wse.2020.04.001",
     categories: [
       INTERDISCIPLINARY,
@@ -189,8 +175,7 @@ const PUBLICATIONS = [
       "Filling knowledge gaps in a threatened shorebird flyway through satellite tracking",
     journal: "Journal of Applied Ecology",
     journalIssue: "56 (10): 2305-2315",
-    url:
-      "https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/1365-2664.13474",
+    url: "https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/1365-2664.13474",
     doi: "10.1111/1365-2664.13474",
     categories: [GREAT_KNOT, YELLOW_SEA, SATELLITE_TRACKING],
   },
@@ -209,15 +194,9 @@ const PUBLICATIONS = [
       "Conserving unprotected important coastal habitats in the Yellow Sea: Shorebird occurrence, distribution and food resources at Lianyungang",
     journal: "Global Ecology and Conservation",
     journalIssue: "20: e00724",
-    url:
-      "https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/1365-2664.13474",
-    doi: "10.1111/1365-2664.13474",
-    categories: [
-      GREAT_KNOT,
-      BAR_TAILED_GODWIT,
-      YELLOW_SEA,
-      SATELLITE_TRACKING,
-    ],
+    url: "https://www.sciencedirect.com/science/article/pii/S2351989419301325/pdfft?md5=04b1229450d1b1f9b156bc0f803ff9c4&pid=1-s2.0-S2351989419301325-main.pdf",
+    doi: "10.1016/j.gecco.2019.e00724",
+    categories: [GREAT_KNOT, BAR_TAILED_GODWIT, YELLOW_SEA, SATELLITE_TRACKING],
   },
   {
     authors: [
@@ -250,8 +229,7 @@ const PUBLICATIONS = [
     journal: "Wader Study",
     journalIssue: "126(1), 75-76",
     doi: "10.18194/ws.00142",
-    url:
-      "https://www.waderstudygroup.org/wp-content/uploads/2019/04/1261-Wading-through-Literature.pdf",
+    url: "https://www.waderstudygroup.org/wp-content/uploads/2019/04/1261-Wading-through-Literature.pdf",
     categories: [GREAT_KNOT, BAR_TAILED_GODWIT, YELLOW_SEA],
   },
 
@@ -275,8 +253,7 @@ const PUBLICATIONS = [
       "Persistent use of a shorebird staging site in the Yellow Sea despite severe declines in food resources implies a lack of alternatives",
     journal: "Bird Conservation International",
     journalIssue: "28(4): 534-548",
-    url:
-      "https://www.rug.nl/research/portal/files/62879746/Bird_Conservation_International_2018_Persistent_use_of_a_shorebird_staging_site.pdf",
+    url: "https://www.rug.nl/research/portal/files/62879746/Bird_Conservation_International_2018_Persistent_use_of_a_shorebird_staging_site.pdf",
     doi: "10.1017/S0959270917000430",
     categories: [GREAT_KNOT, BAR_TAILED_GODWIT, YELLOW_SEA],
   },
@@ -297,15 +274,9 @@ const PUBLICATIONS = [
       "Loss of habitat leads to loss of birds: reflections on the Jiangsu, China, coastal development plans",
     journal: "Wader Study",
     journalIssue: "124: 93–98",
-    url:
-      "https://www.waderstudygroup.org/wp-content/uploads/2017/08/1242-Forum.pdf.pdf",
+    url: "https://www.waderstudygroup.org/wp-content/uploads/2017/08/1242-Forum.pdf.pdf",
     doi: "10.18194/ws.00077",
-    categories: [
-      GREAT_KNOT,
-      BAR_TAILED_GODWIT,
-      YELLOW_SEA,
-      SATELLITE_TRACKING,
-    ],
+    categories: [GREAT_KNOT, BAR_TAILED_GODWIT, YELLOW_SEA, SATELLITE_TRACKING],
   },
   {
     authors: [
@@ -323,8 +294,7 @@ const PUBLICATIONS = [
     journal: "Journal of Ornithology",
     journalIssue: "157 (1), 277-287",
     doi: "10.1007/s10336-015-1276-4",
-    url:
-      "https://www.researchgate.net/profile/Ying_Chi_Chan/publication/281450471_Testing_an_attachment_method_for_solar-powered_tracking_devices_on_a_long-distance_migrating_shorebird/links/55e844c008ae21d099c16ea8.pdf",
+    url: "https://www.researchgate.net/profile/Ying_Chi_Chan/publication/281450471_Testing_an_attachment_method_for_solar-powered_tracking_devices_on_a_long-distance_migrating_shorebird/links/55e844c008ae21d099c16ea8.pdf",
     categories: [RED_KNOT, WADDEN_SEA, SATELLITE_TRACKING],
   },
   {
@@ -373,8 +343,7 @@ const PUBLICATIONS = [
     journal: "Journal of Applied Ecology",
     journalIssue: "53 (2), 479-490",
     doi: "10.1111/1365-2664.12582",
-    url:
-      "https://besjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/1365-2664.12582",
+    url: "https://besjournals.onlinelibrary.wiley.com/doi/pdf/10.1111/1365-2664.12582",
     categories: [
       GREAT_KNOT,
       BAR_TAILED_GODWIT,
@@ -405,13 +374,10 @@ const PUBLICATIONS = [
     ),
     journal: "The Stilt",
     journalIssue: "69–70: 57–61",
-    url:
-      "https://www.researchgate.net/profile/Qingquan_Bai/publication/313601146_Gaizhou_Liaodong_bay_Liaoning_province_China_-_A_site_of_international_importance_for_great_knot_calidris_tenuirostris_and_other_shorebirds/links/58f75f57a6fdccd3e0890488/Gaizhou-Liaodong-bay-Liaoning-province-China-A-site-of-international-importance-for-great-knot-calidris-tenuirostris-and-other-shorebirds.pdf",
+    url: "https://www.researchgate.net/profile/Qingquan_Bai/publication/313601146_Gaizhou_Liaodong_bay_Liaoning_province_China_-_A_site_of_international_importance_for_great_knot_calidris_tenuirostris_and_other_shorebirds/links/58f75f57a6fdccd3e0890488/Gaizhou-Liaodong-bay-Liaoning-province-China-A-site-of-international-importance-for-great-knot-calidris-tenuirostris-and-other-shorebirds.pdf",
     doi: "",
     categories: [GREAT_KNOT, YELLOW_SEA],
   },
 ];
-
-
 
 export default PUBLICATIONS;

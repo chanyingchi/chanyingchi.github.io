@@ -28,7 +28,9 @@
   font-size: 1.2rem;
 }
 
-.publication-journal, .publication-journal-issue, .publication-doi {
+.publication-journal,
+.publication-journal-issue,
+.publication-doi {
   color: #757575;
 }
 
@@ -45,13 +47,29 @@
 }
 
 .filter-red .filter-button {
+  background-color: #ef535080 !important;
+}
+.filter-red .filter-button-active {
   background-color: #ef5350 !important;
 }
 
 .filter-orange .filter-button {
+  background-color: #fb8a0080 !important;
+}
+.filter-orange .filter-button-active {
   background-color: #fb8c00 !important;
 }
 
 .filter-blue .filter-button {
+  background-color: #0289d180 !important;
+}
+.filter-blue .filter-button-active {
   background-color: #0288d1 !important;
+}
+
+.filter-green .filter-button {
+  background-color: #2bbbad80 !important;
+}
+.filter-green .filter-button-active {
+  background-color: #2bbbad !important;
 }
