@@ -18,6 +18,25 @@ export const CATEGORIES = {
 };
 
 const PUBLICATIONS = [
+    {
+    authors: [ME],
+       "Tibbitts, T. L.",
+      "Dorofeev, D.",
+      "Hassell, C. J.",
+       "Piersma, T.",
+    year: 2022,
+    title:
+      "Hidden in plain sight: migration routes of the elusive Anadyr bar-tailed godwit revealed by satellite tracking",
+    journal: "Journal of Avian Biology",
+    journalIssue: "e02988",
+    url: "https://onlinelibrary.wiley.com/doi/epdf/10.1111/jav.02988",
+    doi: "10.1111/jav.02988",
+    categories: [
+      BAR_TAILED_GODWIT,
+      YELLOW_SEA,
+      SATELLITE_TRACKING,
+    ],
+  },
   {
     authors: [ME],
     year: 2021,
