@@ -19,11 +19,13 @@ export const CATEGORIES = {
 
 const PUBLICATIONS = [
     {
-    authors: [ME],
+    authors: [
+      ME,
        "Tibbitts, T. L.",
       "Dorofeev, D.",
       "Hassell, C. J.",
        "Piersma, T.",
+       ],
     year: 2022,
     title:
       "Hidden in plain sight: migration routes of the elusive Anadyr bar-tailed godwit revealed by satellite tracking",
