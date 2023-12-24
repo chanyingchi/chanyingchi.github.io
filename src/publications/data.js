@@ -21,8 +21,8 @@ const PUBLICATIONS = [
    {
     authors: [
       ME,
+        "Chan, D. T. C.",
        "Tibbitts, T. L.",
-      "Dorofeev, D.",
       "Hassell, C. J.",
        "Piersma, T.",
        ],
@@ -43,8 +43,8 @@ const PUBLICATIONS = [
     {
     authors: [
       ME,
-       "Chan, D. T. C.",
-       "Tibbitts, T. L.",
+      "Tibbitts, T. L.",
+      "Dorofeev, D.",
       "Hassell, C. J.",
        "Piersma, T.",
        ],
