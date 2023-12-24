@@ -18,11 +18,33 @@ export const CATEGORIES = {
 };
 
 const PUBLICATIONS = [
-    {
+   {
     authors: [
       ME,
        "Tibbitts, T. L.",
       "Dorofeev, D.",
+      "Hassell, C. J.",
+       "Piersma, T.",
+       ],
+    year: 2023,
+    title:
+      "Site fidelity of migratory shorebirds facing habitat deterioration: insights from satellite tracking and mark-resighting",
+    journal: "Movement Ecology",
+    journalIssue: "79",
+    url: "https://doi.org/10.1186/s40462-023-00443-9",
+    doi: "10.1186/s40462-023-00443-9",
+    categories: [
+      BAR_TAILED_GODWIT,
+      GREAT_KNOT,
+      YELLOW_SEA,
+      SATELLITE_TRACKING,
+    ],
+  },
+    {
+    authors: [
+      ME,
+       "Chan, D. T. C.",
+       "Tibbitts, T. L.",
       "Hassell, C. J.",
        "Piersma, T.",
        ],
