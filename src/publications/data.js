@@ -31,7 +31,7 @@ const PUBLICATIONS = [
       "Site fidelity of migratory shorebirds facing habitat deterioration: insights from satellite tracking and mark-resighting",
     journal: "Movement Ecology",
     journalIssue: "79",
-    url: "https://doi.org/10.1186/s40462-023-00443-9",
+    url: "https://movementecologyjournal.biomedcentral.com/counter/pdf/10.1186/s40462-023-00443-9.pdf",
     doi: "10.1186/s40462-023-00443-9",
     categories: [
       BAR_TAILED_GODWIT,
