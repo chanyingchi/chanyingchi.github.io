@@ -5,7 +5,7 @@ const RED_KNOT = "Red Knot";
 const BAR_TAILED_GODWIT = "Bar-tailed Godwit";
 const RED_KITE = "Red Kite";
 const MIGRATION = "Migration";
-const ONTOGENY = "ontogeny";
+const ONTOGENY = "Ontogeny";
 const MACROBENTHOS = "Macrobenthos";
 const YELLOW_SEA = "Yellow Sea";
 const WADDEN_SEA = "Wadden Sea";
@@ -13,6 +13,7 @@ const SURVIVAL_ANALYSIS = "Survival Analysis";
 const SATELLITE_TRACKING = "Satellite Tracking";
 const REVIEW = "Review";
 const INTERDISCIPLINARY = "Interdisciplinary";
+const DEI = "diversity and Inclusion";
 
 export const CATEGORIES = {
   SPECIES: [GREAT_KNOT, RED_KNOT, BAR_TAILED_GODWIT, MACROBENTHOS],
@@ -25,7 +26,7 @@ const PUBLICATIONS = [
     authors: [
       ME,
        "Kormann, U. G.",
-       "witczak, S.",
+       "Witczak, S.",
        "Scherler, P.",
        "Grüebler, M. U.",
        ],
@@ -43,13 +44,53 @@ const PUBLICATIONS = [
       ONTOGENY,
     ],
   },
+    {
+    authors: [
+       "Shaw, A. K.",
+       "Fouda, L.",
+      "Mezzini, S.",
+       "...",
+       ME,
+       "... Cagnacci, F.",
+       ],
+    year: 2024,
+    title:
+      "Perceived and observed biases within scientific communities: a case study in movement ecology",
+    journal: "bioRxiv",
+    journalIssue: "",
+    url: "https://www.biorxiv.org/content/10.1101/2024.07.29.605602v1.full.pdf",
+    doi: "10.1101/2024.07.29.605602",
+    categories: [
+     DEI
+    ],
+  },
+      {
+    authors: [
+       "Noble, D. W. A.",
+       "Xirocostas, Z. A.",
+       "Wu, N. C.",
+       "...",
+       ME,
+       "... Nakagawa, S.",
+       "Lagisz, M."
+       ],
+    year: 2024,
+    title:
+      "The promise of community-driven preprints in ecology and evolution",
+    journal: "EcoEvoRxiv",
+    journalIssue: "",
+    url: "https://ecoevorxiv.org/repository/object/7239/download/13933/",
+    doi: "10.32942/X2SS46",
+    categories: [
+     DEI
+    ],
+  },
    {
     authors: [
       "Peng, H.-B.",
       ME,
       "Huang, Y.",
-      "...",
-      "Piersma, T.",
+      "... Piersma, T.",
        ],
     year: 2024,
     title:
@@ -85,6 +126,7 @@ const PUBLICATIONS = [
       BAR_TAILED_GODWIT,
       GREAT_KNOT,
       YELLOW_SEA,
+      MIGRATION,
       SATELLITE_TRACKING,
     ],
   },
@@ -106,6 +148,7 @@ const PUBLICATIONS = [
     categories: [
       BAR_TAILED_GODWIT,
       YELLOW_SEA,
+      MIGRATION,
       SATELLITE_TRACKING,
     ],
   },
@@ -123,6 +166,7 @@ const PUBLICATIONS = [
       RED_KNOT,
       BAR_TAILED_GODWIT,
       YELLOW_SEA,
+      MIGRATION,
       SATELLITE_TRACKING,
     ],
   },
@@ -141,7 +185,7 @@ const PUBLICATIONS = [
     journalIssue: "8: 110-131",
     url: "https://doi.org/10.1515/ami-2020-0112",
     doi: "10.1515/ami-2020-0112",
-    categories: [REVIEW],
+    categories: [REVIEW,MIGRATION],
   },
   {
     authors: [
@@ -169,7 +213,7 @@ const PUBLICATIONS = [
     journalIssue: "",
     url: "https://onlinelibrary.wiley.com/doi/epdf/10.1111/ibi.12964",
     doi: "10.1111/ibi.12964",
-    categories: [RED_KNOT, YELLOW_SEA, SATELLITE_TRACKING],
+    categories: [RED_KNOT, YELLOW_SEA, SATELLITE_TRACKING,MIGRATION],
   },
 
   {
@@ -268,7 +312,7 @@ const PUBLICATIONS = [
     journalIssue: "56 (10): 2305-2315",
     url: "https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/1365-2664.13474",
     doi: "10.1111/1365-2664.13474",
-    categories: [GREAT_KNOT, YELLOW_SEA, SATELLITE_TRACKING],
+    categories: [GREAT_KNOT, YELLOW_SEA, MIGRATION,SATELLITE_TRACKING],
   },
   {
     authors: [
@@ -287,7 +331,7 @@ const PUBLICATIONS = [
     journalIssue: "20: e00724",
     url: "https://www.sciencedirect.com/science/article/pii/S2351989419301325/pdfft?md5=04b1229450d1b1f9b156bc0f803ff9c4&pid=1-s2.0-S2351989419301325-main.pdf",
     doi: "10.1016/j.gecco.2019.e00724",
-    categories: [GREAT_KNOT, BAR_TAILED_GODWIT, YELLOW_SEA, SATELLITE_TRACKING],
+    categories: [GREAT_KNOT, BAR_TAILED_GODWIT, YELLOW_SEA, MIGRATION,SATELLITE_TRACKING],
   },
   {
     authors: [
@@ -321,7 +365,7 @@ const PUBLICATIONS = [
     journalIssue: "126(1), 75-76",
     doi: "10.18194/ws.00142",
     url: "https://www.waderstudygroup.org/wp-content/uploads/2019/04/1261-Wading-through-Literature.pdf",
-    categories: [GREAT_KNOT, BAR_TAILED_GODWIT, YELLOW_SEA],
+    categories: [GREAT_KNOT, BAR_TAILED_GODWIT, MIGRATION,YELLOW_SEA],
   },
 
   {
@@ -346,7 +390,7 @@ const PUBLICATIONS = [
     journalIssue: "28(4): 534-548",
     url: "https://www.rug.nl/research/portal/files/62879746/Bird_Conservation_International_2018_Persistent_use_of_a_shorebird_staging_site.pdf",
     doi: "10.1017/S0959270917000430",
-    categories: [GREAT_KNOT, BAR_TAILED_GODWIT, YELLOW_SEA],
+    categories: [GREAT_KNOT, BAR_TAILED_GODWIT, MIGRATION,YELLOW_SEA],
   },
   {
     authors: [
