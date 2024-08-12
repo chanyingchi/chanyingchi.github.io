@@ -3,6 +3,9 @@ export const ME = "Chan, Y.-C.";
 const GREAT_KNOT = "Great Knot";
 const RED_KNOT = "Red Knot";
 const BAR_TAILED_GODWIT = "Bar-tailed Godwit";
+const RED_KITE = "Red Kite";
+const MIGRATION = "Migration";
+const ONTOGENY = "ontogeny";
 const MACROBENTHOS = "Macrobenthos";
 const YELLOW_SEA = "Yellow Sea";
 const WADDEN_SEA = "Wadden Sea";
@@ -18,6 +21,51 @@ export const CATEGORIES = {
 };
 
 const PUBLICATIONS = [
+    {
+    authors: [
+      ME,
+       "Kormann, U. G.",
+       "witczak, S.",
+       "Scherler, P.",
+       "Grüebler, M. U.",
+       ],
+    year: 2024,
+    title:
+      "Ontogeny of migration destination, route and timing in a partially migratory bird",
+    journal: "Journal of Animal Ecology",
+    journalIssue: "",
+    url: "https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/1365-2656.14150",
+    doi: "10.1111/1365-2656.14150",
+    categories: [
+      RED_KITE,
+      SATELLITE_TRACKING,
+      MIGRATION,
+      ONTOGENY,
+    ],
+  },
+   {
+    authors: [
+      "Peng, H.-B.",
+      ME,
+      "Huang, Y.",
+      "...",
+      "Piersma, T.",
+       ],
+    year: 2024,
+    title:
+      "Intraseasonal movements between staging sites by migrating great knots: Longer distances to alternatives decrease the probability of such moves",
+    journal: "Biological Conservation",
+    journalIssue: "292",
+    url: "",
+    doi: "10.1016/j.biocon.2024.110547",
+    categories: [
+      GREAT_KNOT,
+      YELLOW_SEA,
+      MACROBENTHOS,
+      MIGRATION,
+      SATELLITE_TRACKING,
+    ],
+  },
    {
     authors: [
       ME,
