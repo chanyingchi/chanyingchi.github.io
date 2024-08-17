@@ -1,8 +1,27 @@
-import Image_ASAB from "./asab2022.jpg";
+import Image_ISEC from "./ISEC2024.jpg";
+import Image_coverJAB from "./coverJAB_small.jpg";
+import Image_ASAB from "./asab2022_small.jpg";
 import Image_PhD from "./PhD_defense.jpg";
 import Image_EAAFSSM from "./best-student-paper_EAAFSSM_small.png";
 import Image_water from "./Editor_choice_MDPI_Water.jpg";
 const NEWS = [
+   {
+    title:
+      "Presentation on little owl natal dispersal movements at the International Statistical Ecology Conference",
+    text:
+      "Postdoc project on little owl dispersal movements was presented at the International Statistical Ecology Conference 2024, held in Swansea, UK. Learnt a lot from all the talks, posters, and workshops!"
+       image: Image_ISEC,
+    url: "https://chrissuthy.quarto.pub/international-statistical-ecology-conference/",
+  },
+
+    {
+    title:
+      "Article featured on the cover of Journal of Avian Biology",
+    text:
+      "Our article about how our satellite tracking work revealed the migration of the Anadyr bar-tailed godwit was featured on the cover of the August issue of the Journal of Avian Biology."
+       image: Image_coverJAB,
+    url: "https://www.avianbiology.org/content/august-2022",
+  },
    {
     title:
       "Proud to organise ASAB Winter Meeting with the theme 'Animal Movement'",
