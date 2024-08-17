@@ -7,9 +7,9 @@ import Image_water from "./Editor_choice_MDPI_Water.jpg";
 const NEWS = [
    {
     title:
-      "Presentation on little owl natal dispersal movements at the International Statistical Ecology Conference",
+      "Presentation on little owl dispersal movements at the International Statistical Ecology Conference",
     text:
-      "Postdoc project on little owl dispersal movements was presented at the International Statistical Ecology Conference 2024, held in Swansea, UK. Learnt a lot from all the talks, posters, and workshops!"
+      "Postdoc project on little owl natal dispersal movements was presented at the International Statistical Ecology Conference 2024, held in Swansea, UK. Learnt a lot from all the talks, posters, and workshops!",
        image: Image_ISEC,
     url: "https://chrissuthy.quarto.pub/international-statistical-ecology-conference/",
   },
@@ -18,7 +18,7 @@ const NEWS = [
     title:
       "Article featured on the cover of Journal of Avian Biology",
     text:
-      "Our article about how our satellite tracking work revealed the migration of the Anadyr bar-tailed godwit was featured on the cover of the August issue of the Journal of Avian Biology."
+      "Our article about how our satellite tracking work revealed the migration of the Anadyr bar-tailed godwit was featured on the cover of the August issue of the Journal of Avian Biology.",
        image: Image_coverJAB,
     url: "https://www.avianbiology.org/content/august-2022",
   },
