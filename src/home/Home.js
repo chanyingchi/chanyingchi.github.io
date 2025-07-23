@@ -34,30 +34,25 @@ export default function Home() {
       </div>
       <div className="App-section-right">
         <p className="App-paragraph">
-          I am an ecologist with a strong interest in animal movement and
-          migration. My research aims at understanding the decision-making
-          process in animal movement and the causes and consequences of
-          variation in movement and migratory behaviour. I am specialised in
-          analysing tracking data in combination with ground observations and
-          environmental covariates. I have led and organised field expeditions
+          I am an ecologist with a background in movement ecology, birds and coastal systems. 
+          I am specialised in analysing movement data of individuals, and combining movement with 
+          behavioural observations and environmental covariates to draw inferences in why and how animals move. 
+          I am very interested in researching how movement data can be applied in wildlife and habitat conservation.
+          I am interested in Bayesian methods to combine movement, counts and demographic data 
+          to understand species distributions, movements, survival and reproduction.
+          I have led and organised field expeditions
           in Australia and China in satellite tagging of birds, foraging
           behavioural observations, bird counting, resighting of colour-banded
           birds and prey sampling.
         </p>
         <p className="App-paragraph">
-          Currently I am a postdoctoral researcher at the <b>Swiss Ornithological Institute</b> at Sempach within the <a
-            href="https://www.vogelwarte.ch/en/projects/ecological-research/mechanisms-of-population-dynamics-in-red-kites"
+          Since July 2025 I have started a new job as an Assistant Professor in the <a
+            href="https://www.ntu.edu.sg/ase"
             target="_blank"
             rel="noreferrer"
           >
-            Red Kite
-          </a> and <a
-            href="https://www.vogelwarte.ch/en/projects/ecological-research/survival-rate,-range-use-and-dispersal-of-little-owls"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Little Owl
-          </a> projects.
+           <b>Asian School of the Environment, Nanyang Technological University, Singapore</b>
+          . My lab focuses on movement ecology of animals in Southeast Asia. If you are interested in joining my lab or collaborate, please feel free to reach out.
         </p>
         <div className="paragraph-section">
           <div className="App-paragraph">
@@ -65,7 +60,7 @@ export default function Home() {
             <ul>
               <li>Animal movement</li>
               <li>Animal migration</li>
-              <li>Conservation biology</li>
+              <li>Conservation biology</ly
               <li>Biologging</li>
               <li>Foraging ecology</li>
               <li>Data visualisation</li>
