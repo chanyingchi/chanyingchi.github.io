@@ -60,7 +60,7 @@ export default function Home() {
             <ul>
               <li>Animal movement</li>
               <li>Animal migration</li>
-              <li>Conservation biology</ly
+              <li>Conservation biology</li>
               <li>Biologging</li>
               <li>Foraging ecology</li>
               <li>Data visualisation</li>
