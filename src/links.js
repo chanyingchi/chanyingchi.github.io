@@ -6,6 +6,6 @@ const LINKS = {
 };
 
 export const NAME = "Ying-Chi (Ginny) Chan";
-export const EMAIL = "Ginny.Chan@vogelwarte.ch";
+export const EMAIL = "YingChi.Chan@ntu.edu.sg";
 
 export default LINKS;
