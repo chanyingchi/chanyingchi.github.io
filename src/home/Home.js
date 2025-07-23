@@ -51,7 +51,7 @@ export default function Home() {
             target="_blank"
             rel="noreferrer"
           >
-           <b>Asian School of the Environment, Nanyang Technological University, Singapore</b>
+           <b>Asian School of the Environment, Nanyang Technological University, Singapore</b></a>
           . My lab focuses on movement ecology of animals in Southeast Asia. If you are interested in joining my lab or collaborate, please feel free to reach out.
         </p>
         <div className="paragraph-section">
