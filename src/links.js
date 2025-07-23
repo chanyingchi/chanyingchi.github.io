@@ -1,8 +1,11 @@
 const LINKS = {
   "Google Scholar": "https://scholar.google.com/citations?hl=en&user=imgWSakAAAAJ",
-  "ResearchGate": "https://www.researchgate.net/profile/Ying_Chi_Chan",
+  "Orcid": "https://orcid.org/0000-0002-7183-4411",
   "github": "https://github.com/chanyingchi",
-  "Orcid": "https://orcid.org/0000-0002-7183-4411"
+  "LinkedIn": "https://www.linkedin.com/in/ying-chi-ginny-chan-65044a170/",
+  "ResearchGate": "https://www.researchgate.net/profile/Ying_Chi_Chan"
+  
+  
 };
 
 export const NAME = "Ying-Chi (Ginny) Chan";
