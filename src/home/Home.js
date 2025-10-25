@@ -1,4 +1,5 @@
 import ProfilePic from "./profile_pic.jpg";
+import PositionsPDF from "./PhD_positions_movement_ecology_NTU.pdf";
 import { MDBIcon } from "mdbreact";
 import "./Home.css";
 
@@ -54,9 +55,10 @@ export default function Home() {
            <b>Asian School of the Environment, Nanyang Technological University, Singapore</b></a>
           . My lab focuses on movement ecology of animals in Southeast Asia. 
               If you are interested in joining my lab or collaborate, please feel free to reach out.
-         <p className="App-paragraph">
-         NEW: I am now recruiting PhD students to join my lab! Click here for more information.
-         </p>
+        </p>
+        <p className="App-paragraph">
+          NEW: I am now recruiting PhD students to join my lab! <a href={PositionsPDF} target="_blank" rel="noreferrer">Click here</a> for more information.
+        </p>
         <div className="paragraph-section">
           <div className="App-paragraph">
             <h3>Interests</h3>
