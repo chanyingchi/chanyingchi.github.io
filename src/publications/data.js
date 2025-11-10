@@ -72,7 +72,7 @@ const PUBLICATIONS = [
       "Ivimey-Cook, E. R.", 
       "Sánchez-Tójar, A.",
       "...",
-      ME
+      ME,
       "...",
       "Moran, N. P."
        ],
