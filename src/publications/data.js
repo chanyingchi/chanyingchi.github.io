@@ -30,10 +30,10 @@ const PUBLICATIONS = [
       "Farine, D.R.",
       "Oppel, S.",
       "Orgeret F.",
-      "Scherler, P."
-      "Tschumi, M."
+      "Scherler, P.",
+      "Tschumi, M.",
       "Witczak, S.",
-      "Grüebler, M. U.",
+      "Grüebler, M. U."
        ],
     year: 2025,
     title:
