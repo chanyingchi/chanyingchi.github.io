@@ -23,28 +23,7 @@ export const CATEGORIES = {
 };
 
 const PUBLICATIONS = [
-    {
-    authors: [
-      ME,
-       "Kormann, U. G.",
-       "Witczak, S.",
-       "Scherler, P.",
-       "Grüebler, M. U.",
-       ],
-    year: 2024,
-    title:
-      "Ontogeny of migration destination, route and timing in a partially migratory bird",
-    journal: "Journal of Animal Ecology",
-    journalIssue: "",
-    url: "https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/1365-2656.14150",
-    doi: "10.1111/1365-2656.14150",
-    categories: [
-      RED_KITE,
-      SATELLITE_TRACKING,
-      MIGRATION,
-      ONTOGENY,
-    ],
-  },
+   
     {
     authors: [
        "Shaw, A. K.",
@@ -54,13 +33,13 @@ const PUBLICATIONS = [
        ME,
        "... Cagnacci, F.",
        ],
-    year: 2024,
+    year: 2025,
     title:
       "Perceived and observed biases within scientific communities: a case study in movement ecology",
-    journal: "bioRxiv",
-    journalIssue: "",
-    url: "https://www.biorxiv.org/content/10.1101/2024.07.29.605602v1.full.pdf",
-    doi: "10.1101/2024.07.29.605602",
+    journal: "Proceedings of the Royal Society B: Biological Sciences",
+    journalIssue: "292(2051): 20250679",
+    url: "https://royalsocietypublishing.org/doi/epdf/10.1098/rspb.2025.0679",
+    doi: "10.1098/rspb.2025.0679",
     categories: [
      DEI
     ],
@@ -75,15 +54,37 @@ const PUBLICATIONS = [
        "... Nakagawa, S.",
        "Lagisz, M."
        ],
-    year: 2024,
+    year: 2025,
     title:
       "The promise of community-driven preprints in ecology and evolution",
-    journal: "EcoEvoRxiv",
-    journalIssue: "",
-    url: "https://ecoevorxiv.org/repository/object/7239/download/13933/",
-    doi: "10.32942/X2SS46",
+    journal: "Proceedings of the Royal Society B: Biological Sciences",
+    journalIssue: "292(2039): 20241487",
+    url: "https://royalsocietypublishing.org/doi/epdf/10.1098/rspb.2024.1487",
+    doi: "10.1098/rspb.2024.1487",
     categories: [
      DEI
+    ],
+  },
+   {
+    authors: [
+      ME,
+       "Kormann, U. G.",
+       "Witczak, S.",
+       "Scherler, P.",
+       "Grüebler, M. U.",
+       ],
+    year: 2024,
+    title:
+      "Ontogeny of migration destination, route and timing in a partially migratory bird",
+    journal: "Journal of Animal Ecology",
+    journalIssue: "93(9): 1316-1327",
+    url: "https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/1365-2656.14150",
+    doi: "10.1111/1365-2656.14150",
+    categories: [
+      RED_KITE,
+      SATELLITE_TRACKING,
+      MIGRATION,
+      ONTOGENY,
     ],
   },
    {
@@ -97,7 +98,7 @@ const PUBLICATIONS = [
     title:
       "Intraseasonal movements between staging sites by migrating great knots: Longer distances to alternatives decrease the probability of such moves",
     journal: "Biological Conservation",
-    journalIssue: "292",
+    journalIssue: "292: 110547",
     url: "",
     doi: "10.1016/j.biocon.2024.110547",
     categories: [
@@ -120,7 +121,7 @@ const PUBLICATIONS = [
     title:
       "Site fidelity of migratory shorebirds facing habitat deterioration: insights from satellite tracking and mark-resighting",
     journal: "Movement Ecology",
-    journalIssue: "79",
+    journalIssue: "11(1): 79",
     url: "https://movementecologyjournal.biomedcentral.com/counter/pdf/10.1186/s40462-023-00443-9.pdf",
     doi: "10.1186/s40462-023-00443-9",
     categories: [
@@ -143,7 +144,7 @@ const PUBLICATIONS = [
     title:
       "Hidden in plain sight: migration routes of the elusive Anadyr bar-tailed godwit revealed by satellite tracking",
     journal: "Journal of Avian Biology",
-    journalIssue: "e02988",
+    journalIssue: "2022(8): e02988",
     url: "https://onlinelibrary.wiley.com/doi/epdf/10.1111/jav.02988",
     doi: "10.1111/jav.02988",
     categories: [
@@ -211,7 +212,7 @@ const PUBLICATIONS = [
       </span>
     ),
     journal: "Ibis",
-    journalIssue: "",
+    journalIssue: "163: 1235-1251",
     url: "https://onlinelibrary.wiley.com/doi/epdf/10.1111/ibi.12964",
     doi: "10.1111/ibi.12964",
     categories: [RED_KNOT, YELLOW_SEA, SATELLITE_TRACKING,MIGRATION],
@@ -234,7 +235,7 @@ const PUBLICATIONS = [
     title:
       "Mollusc aquaculture homogenizes intertidal soft-sediment communities along the 18,400 km long coastline of China",
     journal: "Diversity and Distributions",
-    journalIssue: "",
+    journalIssue: "27(8): 1553-1567",
     url: "https://onlinelibrary.wiley.com/doi/epdf/10.1111/ddi.13302",
     doi: "10.1111/ddi.13302",
     categories: [MACROBENTHOS, YELLOW_SEA],
@@ -310,7 +311,7 @@ const PUBLICATIONS = [
     title:
       "Filling knowledge gaps in a threatened shorebird flyway through satellite tracking",
     journal: "Journal of Applied Ecology",
-    journalIssue: "56 (10): 2305-2315",
+    journalIssue: "56(10): 2305-2315",
     url: "https://besjournals.onlinelibrary.wiley.com/doi/epdf/10.1111/1365-2664.13474",
     doi: "10.1111/1365-2664.13474",
     categories: [GREAT_KNOT, YELLOW_SEA, MIGRATION,SATELLITE_TRACKING],
