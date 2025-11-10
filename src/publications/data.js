@@ -23,7 +23,30 @@ export const CATEGORIES = {
 };
 
 const PUBLICATIONS = [
-   
+    {
+    authors: [
+      "Catitti, B.",
+      ME,  
+      "Farine, D.R.",
+      "Oppel, S.",
+      "Orgeret F.",
+      "Scherler, P."
+      "Tschumi, M."
+      "Witczak, S.",
+      "Grüebler, M. U.",
+       ],
+    year: 2025,
+    title:
+      "COVID-19 lockdown effects on the foraging strategies of a facultative scavenger",
+    journal: "Biology Letters",
+    journalIssue: "21 (10): 20250223",
+    url: "https://royalsocietypublishing.org/doi/epdf/10.1098/rsbl.2025.0223",
+    doi: "10.1098/rsbl.2025.0223",
+    categories: [
+      RED_KITE,
+      SATELLITE_TRACKING
+    ],
+  },
     {
     authors: [
        "Shaw, A. K.",
@@ -40,6 +63,47 @@ const PUBLICATIONS = [
     journalIssue: "292(2051): 20250679",
     url: "https://royalsocietypublishing.org/doi/epdf/10.1098/rspb.2025.0679",
     doi: "10.1098/rspb.2025.0679",
+    categories: [
+     DEI
+    ],
+  },
+   {
+    authors: [
+      "Ivimey-Cook, E. R.", 
+      "Sánchez-Tójar, A.",
+      "...",
+      ME
+      "...",
+      "Moran, N. P."
+       ],
+    year: 2025,
+    title:
+      "From policy to practice: progress towards data-and code-sharing in ecology and evolution",
+    journal: "Proceedings of the Royal Society B: Biological Sciences",
+    journalIssue: "292(2055): 20251394",
+    url: "https://royalsocietypublishing.org/doi/epdf/10.1098/rspb.2025.1394",
+    doi: "10.1098/rspb.2025.1394",
+    categories: [
+     DEI
+    ],
+  },
+   {
+    authors: [
+       "Lagisz, M.",
+       "Bairos-Novak, K. R.",
+       "Martinig, A. R.",
+       "...",
+       ME,
+       "...", 
+       "Nakagawa, S."      
+       ],
+    year: 2025,
+    title:
+      "Priced out of belonging? Low membership fees but few concessions across international societies in ecology and evolution",
+    journal: "Proceedings of the Royal Society B: Biological Sciences",
+    journalIssue: "292 (2040): 20241430",
+    url: "https://royalsocietypublishing.org/doi/epdf/10.1098/rspb.2024.1430",
+    doi: "10.1098/rspb.2024.1430",
     categories: [
      DEI
     ],
