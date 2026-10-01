@@ -57,7 +57,9 @@ export default function Home() {
               If you are interested in joining my lab or collaborate, please feel free to reach out.
         </p>
         <p className="App-paragraph">
-          NEW: I am now recruiting PhD students to join my lab! <a href={PositionsPDF} target="_blank" rel="noreferrer">Click here</a> for more information.
+          NEW: I am recruiting a PhD student to join my lab! <a href="https://chanyingchi.github.io/moveEco_lab/contact" 
+              target="_blank" 
+                rel="noreferrer">Click here</a> for more information.
         </p>
         <div className="paragraph-section">
           <div className="App-paragraph">
